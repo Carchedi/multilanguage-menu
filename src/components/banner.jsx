@@ -8,9 +8,9 @@ function Banner(props){
                         <h1 class="text-uppercase">
                             <strong>{props.mainText}</strong>
                         </h1>
-                         <hr></hr>
-                         <h3>{props.caption}</h3>
+                         <h6>{props.caption}</h6>
 
+                         <hr></hr>
                         <button type='button' className='btn btn-secondary btn-xl js-scrll-trigger'>
                             {props.chooseLanguage}
                         </button> 

@@ -5,7 +5,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 import 'flag-icon-css/css/flag-icons.min.css';
 import i18next from 'i18next';
-import Banner from './components/banner/banner';
+import Banner from './components/banner';
  
 i18n
   .use(initReactI18next)
@@ -58,9 +58,9 @@ function App() {
   )
 
   return(
-    <> 
+    <>   
       <Banner mainText={t('welcome')} caption={t('caption')} chooseLanguage={t('chooseLang')}/>
-      {/* <div className='d-flex justify-content-end'>
+      <div className='d-flex justify-content-end'>
         <div className='dropdown'>
           <button class='btn btn-link dropdown-toggle' type='button' data-bs-toggle='dropdown' aria-expanded='false'>
             <GlobeIcon/>
@@ -76,7 +76,7 @@ function App() {
             ))}            
           </ul>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
