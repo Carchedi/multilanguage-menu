@@ -21,21 +21,21 @@ function languageModal(props) {
           backdrop="static"
           keyboard={false}
         >
-			<Modal.Header closeButton>
-			<Modal.Title>{t('chooseLang')}</Modal.Title>
-			</Modal.Header>
-			<Modal.Body> 
-			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-				{props.languages.map(({ code, name, country_code }) => ( 
-					<Flag 
-						code={code}
-						name={name}
-						country_code={country_code} 
-					/>
-				))} 
-			</div>
-			{/* onClik={handleClose} */}
-			</Modal.Body>
+          <Modal.Header closeButton>
+            <Modal.Title>{t('chooseLang')}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>   
+            <div class="list-group"> 
+              {props.languages.map(({ code, name, country_code }) => ( 
+                <Flag 
+                  code={code}
+                  name={name}
+                  country_code={country_code} 
+                  onClick={handleClose}
+                />      
+              ))}
+            </div>
+          </Modal.Body>
         </Modal>
       </>
     );
