@@ -1,6 +1,12 @@
 {
     "welcome":"discover all our dishes",
     "caption": "Our digital menu is offered in your language",
-    "chooseLang": "Choose your language",
-    "text03": "seit dem start sind {{days}} Tage vergangen.."
+    "chooseLang": "Choose your language", 
+
+    "menu01":"Pizza",
+    "menu02":"Pastas",
+    "menu03":"Salads",
+    "menu04":"Drinks",
+    "menu05":"Desserts",
+    "menu06":"Contact"
 }

@@ -1,5 +1,12 @@
 {
     "welcome":"scopri tutti i nostri piatti",
     "caption": "Il nostro menu digitale è offerto nella tua lingua",
-    "chooseLang": "Segli la tua lingua" 
+    "chooseLang": "Segli la tua lingua",
+    
+    "menu01":"Pizza",
+    "menu02":"Paste",
+    "menu03":"insalate",
+    "menu04":"Bevande",
+    "menu05":"Dolci",
+    "menu06":"Contatto"
 }

@@ -3,8 +3,7 @@ import { useTranslation, initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 import 'flag-icon-css/css/flag-icons.min.css';
-import i18n from "i18next";
-import i18next from 'i18next';
+import i18n from "i18next"; 
 import Banner from './components/banner';
 import Navbar from './components/navbar'; 
 
@@ -46,41 +45,74 @@ const languages = [
 ]
 
 function App() {
-    const { t } = useTranslation()
+    const { t } = useTranslation() 
 
+    // Put the items for nav menu, refered in translation.json
+    const navItens = [
+        {
+            path: '#',
+            name: 'menu01'
+        },
+        {
+            path: '#',
+            name: 'menu02' 
+        },
+        {
+            path: '#',
+            name: 'menu03'
+        },
+        {
+            path: '#',
+            name: 'menu04'
+        },
+        {
+            path: '#',
+            name: 'menu05'
+        },
+        {
+            path: '#',
+            name: 'menu06'
+        }
+    ]
     return (
-        <>
-            <Navbar languages = {languages}/> 
-            <Banner
+        <> 
+            <Navbar languages = {languages} itens = {navItens}/> 
+            <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />
-            <Banner
+            />  
+            <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />
-            <Banner
+            />  
+            <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />
-            <Banner
+            />  
+            <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />
-            <Banner
+            />  
+            <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />
+            />  
+            <Banner 
+                mainText={t('welcome')}
+                caption={t('caption')}
+                chooseLanguage={t('chooseLang')}
+                languages = {languages}               
+            />  
         </>
     );
 }
