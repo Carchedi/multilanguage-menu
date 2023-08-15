@@ -1,0 +1,9 @@
+.navbar{
+    background: hsl(253, 84%, 83%);
+    padding-right: 50px;
+    padding-top: 0;
+}
+
+.brand, .list-item{
+    color: #fff;
+}

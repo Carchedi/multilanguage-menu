@@ -31,7 +31,6 @@ function languageModal(props) {
                   code={code}
                   name={name}
                   country_code={country_code} 
-                  onClick={handleClose}
                 />      
               ))}
             </div>

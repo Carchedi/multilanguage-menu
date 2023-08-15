@@ -11,8 +11,8 @@ function Banner(props){
                         <h1 className="text-uppercase">
                             <strong>{props.mainText}</strong>
                         </h1>
-                        <h4>{props.caption}</h4>
                         <hr></hr>
+                        <h4>{props.caption}</h4>
                         <Modal 
                             chooseLanguage={props.chooseLanguage}
                             languages={props.languages}
