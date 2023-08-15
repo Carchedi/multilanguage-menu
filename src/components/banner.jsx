@@ -11,10 +11,12 @@ function Banner(props){
                         <h1 className="text-uppercase">
                             <strong>{props.mainText}</strong>
                         </h1>
-                         <h6>{props.caption}</h6>
-
-                         <hr></hr> 
-                        <Modal chooseLanguage={props.chooseLanguage}/>
+                        <h4>{props.caption}</h4>
+                        <hr></hr>
+                        <Modal 
+                            chooseLanguage={props.chooseLanguage}
+                            languages={props.languages}
+                        />
                     </div>
                     
                 </div>

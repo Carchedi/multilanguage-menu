@@ -1,16 +1,16 @@
-import React, {useState} from "react";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, {useState} from "react"; 
+import Modal from 'react-bootstrap/Modal'; 
+import { useTranslation, initReactI18next } from "react-i18next";
+import Flag from './flag';
 
 function languageModal(props) {
     const [show, setShow] = useState(false);
-  
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    const { t } = useTranslation();
   
     return (
-      <> 
-
+      <>
         <button onClick={handleShow} variant="primary" type='button' className='btn btn-secondary btn-xl js-scrll-trigger'>
             {props.chooseLanguage}
         </button>
@@ -21,19 +21,21 @@ function languageModal(props) {
           backdrop="static"
           keyboard={false}
         >
-          <Modal.Header closeButton>
-            <Modal.Title>Modal title</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            I will not close if you click outside me. Don't even try to press
-            escape key.
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary">Understood</Button>
-          </Modal.Footer>
+			<Modal.Header closeButton>
+			<Modal.Title>{t('chooseLang')}</Modal.Title>
+			</Modal.Header>
+			<Modal.Body> 
+			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+				{props.languages.map(({ code, name, country_code }) => ( 
+					<Flag 
+						code={code}
+						name={name}
+						country_code={country_code} 
+					/>
+				))} 
+			</div>
+			{/* onClik={handleClose} */}
+			</Modal.Body>
         </Modal>
       </>
     );
