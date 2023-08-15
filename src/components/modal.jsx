@@ -3,11 +3,16 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 function languageModal(props) {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
   
     return (
-      <>
-        <button  className="px-4 py-1 text-sm">
-            update
+      <> 
+
+        <button onClick={handleShow} variant="primary" type='button' className='btn btn-secondary btn-xl js-scrll-trigger'>
+            {props.chooseLanguage}
         </button>
          
         <Modal

@@ -11,7 +11,7 @@
 .masthead hr {
   position: relative; 
   border: none;
-  height: 2px;
+  height: 5px !important;
   background: white;
   opacity: 1 !important;
   margin-bottom: 10px;

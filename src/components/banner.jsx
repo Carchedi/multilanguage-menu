@@ -1,4 +1,6 @@
 import './banner.css'
+import Modal from './modal';
+
 function Banner(props){
  
     return( 
@@ -11,10 +13,8 @@ function Banner(props){
                         </h1>
                          <h6>{props.caption}</h6>
 
-                         <hr></hr>
-                        <button variant="primary" type='button' className='btn btn-secondary btn-xl js-scrll-trigger'>
-                            {props.chooseLanguage}
-                        </button> 
+                         <hr></hr> 
+                        <Modal chooseLanguage={props.chooseLanguage}/>
                     </div>
                     
                 </div>
