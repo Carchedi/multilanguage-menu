@@ -1,9 +1,42 @@
 .navbar{
-    background: hsl(253, 84%, 83%);
+    background: hsl(0, 0%, 100%);
     padding-right: 50px;
-    padding-top: 0;
+    padding-top: 0; 
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+
+.navbar-brand:hover{ 
+    color: #f53409;
 }
 
 .brand, .list-item{
     color: #fff;
+}
+.navbar-brand{
+    color: #F05F40;
+}
+ 
+.navbar-collapse {
+    text-transform: uppercase;
+} 
+
+#nav-items button{
+    color: #212529;
+    font-weight: bolder;
+}
+
+#nav-items button:hover{
+    background-color: white;
+    color: #F05F40;
+}
+
+#nav-items button:not( :hover){
+    background-color: white; 
 }
