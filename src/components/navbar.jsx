@@ -6,9 +6,9 @@ function navbar(props) {
     const { t } = useTranslation(); 
     return (
 
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Carchedi Ristorante </a> 
+                <a className="navbar-brand" href="#" id="brandName">Carchedi Ristorante </a> 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>  

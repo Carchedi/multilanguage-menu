@@ -1,4 +1,5 @@
 import i18next from 'i18next';
+import './languageSelectButton.css'; 
 
 function LanguageButton(props){
 
@@ -9,7 +10,7 @@ function LanguageButton(props){
     )
  
     return(
-        <> <div className='dropdown position-absolute top-0 end-0'>
+        <> <div className='dropdown position-absolute top-0 end-0' id='language-icon'>
                 <button className='btn dropdown-toggle' type='button' data-bs-toggle='dropdown' aria-expanded='false'>
                     <GlobeIcon />
                 </button>

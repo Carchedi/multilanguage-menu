@@ -1,27 +1,32 @@
 .navbar{
-    background: hsl(0, 0%, 100%);
+    background: #f8f9fa;
     padding-right: 50px;
     padding-top: 0; 
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase; 
-    font-weight: bold;
+    font-weight: bold; 
 }
 
-.navbar-toggler {
-    border-color: rgb(255,102,203);
-  } 
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border-color: rgba(0, 0, 0, .1);
+}
 
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+ 
 .navbar-brand:hover{ 
     color: #f53409;
 }
 
 .brand, .list-item{
-    color: #fff;
-}
-.navbar-brand{
-    color: #F05F40;
-}
+    color: #f8f9fa;
+} 
  
 .navbar-collapse {
     text-transform: uppercase;
@@ -33,10 +38,14 @@
 }
 
 #nav-items button:hover{
-    background-color: white;
+    background-color: #f8f9fa;
     color: #F05F40;
 }
 
 #nav-items button:not( :hover){
-    background-color: white; 
+    background-color: #f8f9fa; 
+}
+
+#brandName{
+    color: #f53409;
 }
