@@ -1,6 +1,6 @@
 import './navbar.css'; 
 import LanguageButton from './languageSelectButton'; 
-import { useTranslation, initReactI18next } from "react-i18next"; 
+import { useTranslation, initReactI18next } from "react-i18next";
 
 function navbar(props) { 
     const { t } = useTranslation(); 
@@ -18,7 +18,9 @@ function navbar(props) {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-items">
                         {props.itens.map(({ path, name }) => ( 
                             <li key={path}>
-                                <button className="dropdown-item" onClick={() => i18next.changeLanguage(code)} > 
+                                <button className="dropdown-item" 
+                                    // onClick={() => i18next.changeLanguage(code)}  
+                                > 
                                 {t(name).toUpperCase()}
                                 </button>
                             </li>

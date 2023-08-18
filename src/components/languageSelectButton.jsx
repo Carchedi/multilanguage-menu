@@ -14,7 +14,7 @@ function LanguageButton(props){
                 <button className='btn dropdown-toggle' type='button' data-bs-toggle='dropdown' aria-expanded='false'>
                     <GlobeIcon />
                 </button>
-                <ul className="dropdown-menu dropdown-menu-end">
+                <ul className="dropdown-menu dropdown-menu-end" id='flags-background'>
                     {props.languages.map(({ code, name, country_code }) => (
                         <li key={country_code}>
                             <button className="dropdown-item" onClick={() => i18next.changeLanguage(code)} >
