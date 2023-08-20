@@ -1,12 +1,12 @@
 {
-    "welcome": "descubra todos os nossos pratos",
-    "caption": "Nosso cardápio digital é oferecido no seu idioma",
-    "chooseLang": "Escolha o seu idioma",
-    
-    "menu01": "Pizza",
-    "menu02": "Massas",
-    "menu03": "Saladas",
-    "menu04": "Bebidas",
-    "menu05": "Sobremesas",
-    "menu06": "Contato"
+	"welcome": "descubra todos os nossos pratos",
+	"caption": "Nosso cardápio digital é oferecido no seu idioma",
+	"chooseLang": "Escolha o seu idioma",
+	
+	"menu01": "Pizza",
+	"menu02": "Massas",
+	"menu03": "Saladas",
+	"menu04": "Bebidas",
+	"menu05": "Sobremesas",
+	"menu06": "Contato"
 }
