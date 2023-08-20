@@ -6,6 +6,7 @@ import 'flag-icon-css/css/flag-icons.min.css';
 import i18n from "i18next"; 
 import Banner from './components/banner';
 import Navbar from './components/navbar'; 
+import Section from './components/section'
 
 i18n
     .use(initReactI18next)
@@ -83,36 +84,9 @@ function App() {
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
             />  
-            <Banner 
-                mainText={t('welcome')}
-                caption={t('caption')}
-                chooseLanguage={t('chooseLang')}
-                languages = {languages}               
-            />  
-            <Banner 
-                mainText={t('welcome')}
-                caption={t('caption')}
-                chooseLanguage={t('chooseLang')}
-                languages = {languages}               
-            />  
-            <Banner 
-                mainText={t('welcome')}
-                caption={t('caption')}
-                chooseLanguage={t('chooseLang')}
-                languages = {languages}               
-            />  
-            <Banner 
-                mainText={t('welcome')}
-                caption={t('caption')}
-                chooseLanguage={t('chooseLang')}
-                languages = {languages}               
-            />  
-            <Banner 
-                mainText={t('welcome')}
-                caption={t('caption')}
-                chooseLanguage={t('chooseLang')}
-                languages = {languages}               
-            />  
+            {navItens.map(({name}) => (
+                <Section name={t(name)}/>   
+            ))}         
         </>
     );
 }
