@@ -24,20 +24,17 @@ function languageModal(props) {
           <Modal.Header closeButton>
             <Modal.Title>{t('chooseLang')}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>   
-            <div className="container">  
-                <div className="row">  
-                    {props.languages.map(({ code, name, country_code }) => (
-                        <div key={country_code}>
-                            <div role="button" onClick={() => i18next.changeLanguage(code)} >
-
-                              <span className={`flag-icon flag-icon-${country_code}`}></span>
-                              <span>{name}</span>                                  
-                            </div>  
-                        </div>
-                    ))} 
-                </div>     
-            </div>
+          <Modal.Body>    
+            <div className="row">  
+                {props.languages.map(({ code, name, country_code }) => (
+                    <div key={country_code} className="col-md-4 text-center" onClick={handleClose}>
+                        <div role="button" onClick={() => i18next.changeLanguage(code)} >
+                          <div className={`flag-icon flag-icon-${country_code}`} style={{ width: '100px', height: '100px' }}></div>
+                        </div>  
+                        <span >{name}</span>                                  
+                    </div>
+                ))} 
+            </div>      
           </Modal.Body>
         </Modal>
       </>
