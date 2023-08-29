@@ -3,5 +3,9 @@
     font-size: 1.6rem;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700; 
+}
+
+.col-md-12{
+    margin: 2rem;
 }
