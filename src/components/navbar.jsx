@@ -22,13 +22,18 @@ function navbar(props) {
                 <div class="container">
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-items">
-                            {props.itens.map(({ path, name }) => ( 
+                            {props.itens.map(({ path, name }) => (
                                 <li className="nav-item active" key={path}>
                                     <a className="nav-link" href={`#${t(name)}`} onClick={closeToggle}>
                                     {t(name).toUpperCase()}
                                     </a>
-                                </li>
+                                </li> 
                             ))}
+                            <li className="nav-item active" key="#">
+                                <a className="nav-link" href={`#${t("menu06")}`} onClick={closeToggle}>
+                                {t("menu06").toUpperCase()}
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

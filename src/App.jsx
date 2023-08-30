@@ -7,6 +7,7 @@ import i18n from "i18next";
 import Banner from './components/banner';
 import Navbar from './components/navbar'; 
 import Section from './components/section'
+import ContactUs from './components/contactUs';
 
 i18n
     .use(initReactI18next)
@@ -39,8 +40,7 @@ function App() {
         {path: '#', name: 'menu02'},
         {path: '#', name: 'menu03'},
         {path: '#', name: 'menu04'},
-        {path: '#', name: 'menu05'},
-        {path: '#', name: 'menu06'}
+        {path: '#', name: 'menu05'}
     ]
     return (
         <> 
@@ -55,7 +55,8 @@ function App() {
                 <Section 
                     name={t(name)} 
                 />   
-            ))}         
+            ))}
+            <ContactUs name={t('menu06')}/>
         </>
     );
 }
