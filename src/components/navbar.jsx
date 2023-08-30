@@ -9,8 +9,8 @@ function navbar(props) {
     const closeToggle = event => {
         const button = document.getElementById("chave");
         button.click();
-    }        
-
+    }
+  
     return (
         <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
             <div className="container-fluid">
@@ -33,8 +33,7 @@ function navbar(props) {
                     </div>
                 </div>
             </div>
-        </nav> 
-
+        </nav>
     );
 }
 

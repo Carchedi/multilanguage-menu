@@ -19,30 +19,15 @@ i18n
             order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
             caches: ['cookies']
         },
-        backend: {
-            loadPath: '/assets/locales/{{lng}}/translation.json',
-        },
+        backend: { loadPath: '/assets/locales/{{lng}}/translation.json'},
         react: { useSuspense: false }
     });
 
 const languages = [
-    {
-        code: 'en',
-        name: 'English',
-        country_code: 'gb'
-    }, {
-        code: 'it',
-        name: 'Italiano',
-        country_code: 'it'
-    }, {
-        code: 'de',
-        name: 'Deutsch',
-        country_code: 'de'
-    }, {
-        code: 'pt',
-        name: 'Português',
-        country_code: 'pt'
-    }  
+    {code: 'en', name: 'English', country_code: 'gb' }, 
+    {code: 'it', name: 'Italiano', country_code: 'it'},
+    {code: 'de',name: 'Deutsch',country_code: 'de'}, 
+    {code: 'pt',name: 'Português',country_code: 'pt'}  
 ]
 
 function App() {
@@ -50,30 +35,12 @@ function App() {
 
     // Put the items for nav menu, refered in translation.json
     const navItens = [
-        {
-            path: '#',
-            name: 'menu01'
-        },
-        {
-            path: '#',
-            name: 'menu02' 
-        },
-        {
-            path: '#',
-            name: 'menu03'
-        },
-        {
-            path: '#',
-            name: 'menu04'
-        },
-        {
-            path: '#',
-            name: 'menu05'
-        },
-        {
-            path: '#',
-            name: 'menu06'
-        }
+        {path: '#', name: 'menu01'},
+        {path: '#', name: 'menu02'},
+        {path: '#', name: 'menu03'},
+        {path: '#', name: 'menu04'},
+        {path: '#', name: 'menu05'},
+        {path: '#', name: 'menu06'}
     ]
     return (
         <> 
@@ -85,7 +52,9 @@ function App() {
                 languages = {languages}               
             />  
             {navItens.map(({name}) => (
-                <Section name={t(name)}/>   
+                <Section 
+                    name={t(name)} 
+                />   
             ))}         
         </>
     );

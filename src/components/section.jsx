@@ -1,17 +1,65 @@
-import './section.css'; 
+import './section.css';
+import MenuItem from './menuItem';
 
 function Section(props){
     return(
         <div id={props.name} className="col-md-12">
             <h1>{props.name}</h1>
+            <h5>{props.items}</h5>
+
             <hr/>
-            Lorem ipsum dolor sit amet. Et commodi temporibus non impedit assumenda et tenetur temporibus ut molestiae nemo in enim 
-            soluta. In esse incidunt sit consequatur doloremque aut iste distinctio. Aut quis blanditiis ad quam similique sed quas
-            repellat et atque temporibus in iusto harum a voluptatem consectetur. In explicabo sunt non quia amet sit nihil enim est
-            deserunt molestiae. Id optio distinctio quo voluptatem ipsum eos facilis reiciendis id aliquam iure qui velit sint ut
-            commodi iusto! Sit dignissimos facere aut omnis perferendis et dignissimos natus et asperiores fugit. Ea vero consectetur
-             a libero inventore nam ipsa nisi. Ut facere consequatur hic suscipit fugiat qui autem exercitationem non earum iusto non
-             dolorem maiores 33 maiores consequuntur aut omnis nihil.
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/birra.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/budino.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/birra.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/budino.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/birra.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                    <div class="col-md-3">
+                        <MenuItem 
+                            imgSrc="../img/menu_items/budino.jpg"
+                            imgAlt={props.name}
+                            itemName={props.name}
+                            itemDescription=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                            />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
