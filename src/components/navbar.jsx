@@ -11,7 +11,7 @@ function navbar(props) {
         button.click();
     }
   
-    return (
+    return ( 
         <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#" id="brandName">Carchedi Ristorante </a> 

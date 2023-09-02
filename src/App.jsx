@@ -42,6 +42,7 @@ function App() {
         {path: '#', name: 'menu04'},
         {path: '#', name: 'menu05'}
     ]
+   
     return (
         <> 
             <Navbar languages = {languages} itens = {navItens}/> 
@@ -53,7 +54,7 @@ function App() {
             />  
             {navItens.map(({name}) => (
                 <Section 
-                    name={t(name)} 
+                    name={t(name)}
                 />   
             ))}
             <ContactUs name={t('menu06')}/>
