@@ -1,7 +1,8 @@
 {
     "welcome": "Entdecken Sie alle unsere Gerichte",
     "caption": "Unsere digitale Speisekarte wird in Ihrer Sprache angeboten",
-    "chooseLang": "Wähle deine Sprache",
+    "chooseLang": "Wähle deine Sprache", 
+    "more": "Mehr...",
     
     "menu01":"Pizza",
     "menu02":"Pasta",

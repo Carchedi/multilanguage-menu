@@ -1,26 +1,35 @@
-p{
+body{
+    overflow-x: hidden; /* Hide scrollbars */
+}
+
+p {
     padding-top: 1rem;
     text-align: justify;
     text-justify: inter-word;
-    height: 215px; 
+    height: 215px;
 }
-
 
 p:first-letter {
     text-transform: capitalize
 }
 
-.card{
+.card {
     background-color: rgb(236, 236, 236) !important;
-    min-height: 85%; 
-    word-wrap: break-word;
+    min-height: 85%;
+    word-wrap: break-word;overflow: auto; 
 }
 
-.imgCard{
+.imgCard {
     border-radius: .8rem;
+    width: 90%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -3px 3px rgb(58, 57, 57);
 }
 
-.textCard{
-    color: black;
-    overflow-y: scroll; 
+.textCard {
+    color: black; 
+    overflow: hidden;
 }
