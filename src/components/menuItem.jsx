@@ -1,5 +1,5 @@
 import './menuItem.css';
-import { useTranslation, initReactI18next } from "react-i18next"; 
+import { useTranslation} from "react-i18next"; 
 
 function MenuItem(props){
     const { t } = useTranslation(); 
@@ -14,7 +14,6 @@ function MenuItem(props){
                 <div className="textCard">
                     <p className="card-text limited">{props.itemDescription}</p>
                 </div>
-            <a href='#'>{t("more")}</a>
             </div>
         </div>
     )

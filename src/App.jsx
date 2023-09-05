@@ -34,53 +34,54 @@ const languages = [
 function App() {
     const { t } = useTranslation() 
 
+    
     const menu01Items = [
-        {imgSrc: '../img/menu_items/menu01/calzonne.jpg', itemName:'Calzonne',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu01/funghi.jpg', itemName:'Funghi',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu01/margherita.jpg', itemName:'Margheritta',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu01/pollo.png', itemName:'Pollo',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu01/prosciutto.jpg', itemName:'Prosciutto',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu01/salame.jpg', itemName:'Salame',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu01/tonno.jpg', itemName:'Tonno',itemDescription:'descB'}
+        {imgSrc: '../img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'),   itemDescription:t('menu01ItemA_description')},
+        {imgSrc: '../img/menu_items/menu01/funghi.jpg',     itemName:t('menu01ItemB_name'),   itemDescription:t('menu01ItemB_description')},
+        {imgSrc: '../img/menu_items/menu01/margherita.jpg', itemName:t('menu01ItemC_name'),   itemDescription:t('menu01ItemC_description')},
+        {imgSrc: '../img/menu_items/menu01/pollo.png',      itemName:t('menu01ItemD_name'),   itemDescription:t('menu01ItemD_description')},
+        {imgSrc: '../img/menu_items/menu01/prosciutto.jpg', itemName:t('menu01ItemE_name'),   itemDescription:t('menu01ItemE_description')},
+        {imgSrc: '../img/menu_items/menu01/salame.jpg',     itemName:t('menu01ItemF_name'),   itemDescription:t('menu01ItemF_description')},
+        {imgSrc: '../img/menu_items/menu01/tonno.jpg',      itemName:t('menu01ItemG_name'),   itemDescription:t('menu01ItemG_description')}
     ]
 
     const menu02Items = [
-        {imgSrc: '../img/menu_items/menu02/canellonni.png', itemName:'Canellonne',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu02/gnocchi.png', itemName:'Gnochi',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu02/lasagna.png', itemName:'Lasagna',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu02/Linguine.png', itemName:'Linguine',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu02/macaroni.jpg', itemName:'Macaroni',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu02/penne.png', itemName:'Penne',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu02/raviolli.jpg', itemName:'Raviolli',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu02/spaghetti.jpg', itemName:'Spaghetti',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu02/vermicelli.png', itemName:'Vermicelli',itemDescription:'descB'}
+        {imgSrc: '../img/menu_items/menu02/canellonni.png', itemName:t('menu02ItemA_name'), itemDescription:t('menu02ItemA_description')},
+        {imgSrc: '../img/menu_items/menu02/gnocchi.png',    itemName:t('menu02ItemB_name'), itemDescription:t('menu02ItemB_description')},
+        {imgSrc: '../img/menu_items/menu02/lasagna.png',    itemName:t('menu02ItemC_name'), itemDescription:t('menu02ItemC_description')},
+        {imgSrc: '../img/menu_items/menu02/Linguine.png',   itemName:t('menu02ItemD_name'), itemDescription:t('menu02ItemD_description')},
+        {imgSrc: '../img/menu_items/menu02/macaroni.jpg',   itemName:t('menu02ItemE_name'), itemDescription:t('menu02ItemE_description')},
+        {imgSrc: '../img/menu_items/menu02/penne.png',      itemName:t('menu02ItemF_name'), itemDescription:t('menu02ItemF_description')},
+        {imgSrc: '../img/menu_items/menu02/raviolli.jpg',   itemName:t('menu02ItemG_name'), itemDescription:t('menu02ItemG_description')},
+        {imgSrc: '../img/menu_items/menu02/spaghetti.jpg',  itemName:t('menu02ItemH_name'), itemDescription:t('menu02ItemH_description')},
+        {imgSrc: '../img/menu_items/menu02/vermicelli.png', itemName:t('menu02ItemI_name'), itemDescription:t('menu02ItemI_description')}
     ]
 
     const menu03Items = [
-        {imgSrc: '../img/menu_items/menu03/insalata01.jpg', itemName:'Insalata 01',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu03/insalata02.jpg', itemName:'Insalata 02',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu03/insalata03.jpg', itemName:'Insalata 03',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu03/insalata04.jpg', itemName:'Insalata 04',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu03/insalata05.jpg', itemName:'Insalata 05',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu03/insalata06.jpg', itemName:'Insalata 06',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu03/insalata07.jpg', itemName:'Insalata 07',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu03/insalata08.jpg', itemName:'Insalata 08',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu03/insalata09.jpg', itemName:'Insalata 09',itemDescription:'descB'}
+        {imgSrc: '../img/menu_items/menu03/insalata01.jpg', itemName:t('menu03ItemA_name'), itemDescription:t('menu03ItemA_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata02.jpg', itemName:t('menu03ItemB_name'), itemDescription:t('menu03ItemB_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata03.jpg', itemName:t('menu03ItemC_name'), itemDescription:t('menu03ItemC_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata04.jpg', itemName:t('menu03ItemD_name'), itemDescription:t('menu03ItemD_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata05.jpg', itemName:t('menu03ItemE_name'), itemDescription:t('menu03ItemE_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata06.jpg', itemName:t('menu03ItemF_name'), itemDescription:t('menu03ItemF_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata07.jpg', itemName:t('menu03ItemG_name'), itemDescription:t('menu03ItemG_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata08.jpg', itemName:t('menu03ItemH_name'), itemDescription:t('menu03ItemH_description')},
+        {imgSrc: '../img/menu_items/menu03/insalata09.jpg', itemName:t('menu03ItemI_name'), itemDescription:t('menu03ItemI_description')}
     ]
 
     const menu04Items = [
-        {imgSrc: '../img/menu_items/menu04/acqua_minerale.jpg', itemName:'Acqua Minerale',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu04/bevande_analcoliche.jpg', itemName:'Bevande Analcholiche',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu04/birra.jpg', itemName:'Birra',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu04/succo_naturali.jpg', itemName:'Succo Naturali',itemDescription:'descB'}
+        {imgSrc: '../img/menu_items/menu04/acqua_minerale.jpg',     itemName:t('menu04ItemA_name'), itemDescription:t('menu04ItemA_description')},
+        {imgSrc: '../img/menu_items/menu04/bevande_analcoliche.jpg',itemName:t('menu04ItemB_name'), itemDescription:t('menu04ItemB_description')},
+        {imgSrc: '../img/menu_items/menu04/birra.jpg',              itemName:t('menu04ItemC_name'), itemDescription:t('menu04ItemC_description')},
+        {imgSrc: '../img/menu_items/menu04/succo_naturali.jpg',     itemName:t('menu04ItemD_name'), itemDescription:t('menu04ItemD_description')}
     ]
 
     const menu05Items = [
-        {imgSrc: '../img/menu_items/menu05/budino_speciale.jpg', itemName:'Budino Speciale',itemDescription:'descA'},
-        {imgSrc: '../img/menu_items/menu05/budino.jpg', itemName:'Budino',itemDescription:'descB'},
-        {imgSrc: '../img/menu_items/menu05/fruit_salad.jpg', itemName:'Fruit Salad',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu05/gelatto.jpg', itemName:'Gelatto',itemDescription:'descC'},
-        {imgSrc: '../img/menu_items/menu05/mousse_fragole.jpg', itemName:'Mousse Fragole',itemDescription:'descB'}
+        {imgSrc: '../img/menu_items/menu05/budino_speciale.jpg',itemName:t('menu05ItemA_name'), itemDescription:t('menu05ItemA_description')},
+        {imgSrc: '../img/menu_items/menu05/budino.jpg',         itemName:t('menu05ItemB_name'), itemDescription:t('menu05ItemB_description')},
+        {imgSrc: '../img/menu_items/menu05/fruit_salad.jpg',    itemName:t('menu05ItemC_name'), itemDescription:t('menu05ItemC_description')},
+        {imgSrc: '../img/menu_items/menu05/gelatto.jpg',        itemName:t('menu05ItemD_name'), itemDescription:t('menu05ItemD_description')},
+        {imgSrc: '../img/menu_items/menu05/mousse_fragole.jpg', itemName:t('menu05ItemE_name'), itemDescription:t('menu05ItemE_description')}
     ]
 
     // Put the items for nav menu, refered in translation.json
