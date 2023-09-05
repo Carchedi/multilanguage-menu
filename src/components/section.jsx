@@ -9,7 +9,7 @@ function Section(props){
             <hr/>
                 <div class="row"> 
                     {props.items.map(({imgSrc, itemName,itemDescription}) => (
-                        <div class="col-md-3 d-flex align-items-stretch">
+                        <div class="col-sm-6 col-md-4 d-flex align-items-stretch" style={{padding: "1rem"}}>
                             <MenuItem 
                                 imgSrc={imgSrc}
                                 imgAlt={itemName}

@@ -30,18 +30,8 @@ function ContactUs(props){
             <div class="container">
                 <h1>{props.name}</h1>
                 <hr/> 
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card mb-2 align-items-center justify-content-center">
-                            <div class="card-body"> 
-                                <Phone /> 
-                            </div>
-                            <div class="card-body"> 
-                                <a href="tel:(32)999735726">+55 32 99973-5726</a>
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="col-md-3">                        
+                <div class="row"> 
+                    <div class="col-md-4 col-sm-6">                        
                         <div class="card mb-2 align-items-center justify-content-center"> 
                             <div class="card-body"> 
                                 <Mail /> 
@@ -51,7 +41,7 @@ function ContactUs(props){
                             </div>
                         </div>
                     </div> 
-                    <div class="col-md-3">                           
+                    <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" >
                             <div class="card-body"> 
                                 <Instagram /> 
@@ -61,7 +51,7 @@ function ContactUs(props){
                             </div>                        
                         </div>
                     </div>
-                    <div class="col-md-3">                           
+                    <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" > 
                             <div class="card-body"> 
                                 <Whatsapp /> 

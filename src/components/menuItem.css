@@ -5,8 +5,7 @@ body{
 p {
     padding-top: 1rem;
     text-align: justify;
-    text-justify: inter-word;
-    height: 215px;
+    text-justify: inter-word;  
 }
 
 p:first-letter {
@@ -15,14 +14,13 @@ p:first-letter {
 
 .card {
     background-color: rgba(235, 141, 53, 0.274) !important;
-    min-height: 85%;
-    width: 100%;
     word-wrap: break-word;overflow: auto; 
 }
 
 .imgCard {
     border-radius: .8rem;
-    width: 90%;
+    min-width: 90%;
+    aspect-ratio: 16/9;
     align-content: center;
     display: block;
     margin-left: auto;
@@ -32,5 +30,5 @@ p:first-letter {
 
 .textCard {
     color: black; 
-    overflow: hidden;
+    overflow: hidden;  
 }
