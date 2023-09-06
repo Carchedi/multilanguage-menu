@@ -30,10 +30,9 @@ function MenuItem(props){
                 </div>
             </div>
             <div className="cord-footer">
-
-            <div class="container">
+                <div class="container">
                     <div class="row">
-                        <div class="col-sm">                         
+                        <div class="col-8">                         
                                 {props.alergics.map((item) =>{
                                     if (item == 'chili') {
                                         return <Chili iconType="simpleIcon"/>;
@@ -62,8 +61,7 @@ function MenuItem(props){
                                 })} 
                              
                         </div>
-                        <div class="col-sm text-end" style={{paddingBottom:"0.5rem"}}>
-                            
+                        <div class="col-4 text-end"> 
                             <Modal
                                 width={w}
                             />        

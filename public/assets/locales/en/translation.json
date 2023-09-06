@@ -82,5 +82,15 @@
 	"menu05ItemD_name": "Ice Cream",
 	"menu05ItemD_description": "Ice cream of different flavors.",
 	"menu05ItemE_name": "Mousse" ,
-	"menu05ItemE_description": "Special strawberry mousse."
+	"menu05ItemE_description": "Special strawberry mousse.",
+
+	"dietaryRestrictions": "Dietary Restrictions",
+	"Chili": "Chili",
+	"Crustaceans": "Crustaceans",
+	"Egg": "Egg",
+	"Glutem": "Glutem",
+	"Milk": "Milk and derivatives",
+	"SeaFood": "SeaFood",
+	"TransFat": "Trans Fat",
+	"Pork": "Swine"
 }

@@ -3,7 +3,7 @@ import MenuItem from './menuItem';
 
 function Section(props){
     return(
-        <div id={props.name} className="col-md-12">
+        <div id={props.name} className="w-100">
             <div class="container">
             <h1>{props.name}</h1> 
             <hr/>

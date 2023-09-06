@@ -82,5 +82,15 @@
 	"menu05ItemD_name": "Sorvete",
 	"menu05ItemD_description": "Sorvetes de diferentes sabores.",
 	"menu05ItemE_name": "Mousse" ,
-	"menu05ItemE_description": "Mousse de morango especial."
+	"menu05ItemE_description": "Mousse de morango especial.",
+
+	"dietaryRestrictions": "Restrições Alimentares",
+	"Chili": "Pimenta",
+	"Crustaceans": "Crustáceos",
+	"Egg": "Ovo",
+	"Glutem": "Glutém",
+	"Milk": "Leite e derivados",
+	"SeaFood": "Frutos do Mar",
+	"TransFat": "Gorduras Trans",
+	"Pork": "Suínos"
 }

@@ -83,5 +83,15 @@
 	"menu05ItemD_name": "Eiscreme",
 	"menu05ItemD_description": "Eis in verschiedenen Geschmacksrichtungen.",
 	"menu05ItemE_name": "Mousse",
-	"menu05ItemE_description": "Spezielles Erdbeermousse."
+	"menu05ItemE_description": "Spezielles Erdbeermousse.",
+
+	"dietaryRestrictions": "Diätetische Einschränkungen",
+	"Chili": "Pfeffer",
+	"Crustaceans": "Krebstiere",
+	"Egg": "Ei",
+	"Glutem": "Gluten",
+	"Milk": "Milch und Derivate",
+	"SeaFood": "Meeresfrüchte",
+	"TransFat": "Trans-Fette",
+	"Pork": "Schwein"
 }

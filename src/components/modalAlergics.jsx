@@ -46,14 +46,14 @@ function alergicsModal(props) {
 				<Modal.Body>
 					<table class="table table-borderless"> 
 						<tbody>  
-							<tr><td className="simpleCell align-middle"><Chili iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td> 
-							    <td className="simpleCell align-middle"><Crustaceans iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td></tr>
-							<tr><td className="simpleCell align-middle"><Egg iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td>
-								<td className="simpleCell align-middle"><Glutem iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td></tr>
-							<tr><td className="simpleCell align-middle"><Milk iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td>
-								<td className="simpleCell align-middle"><SeaFood iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td></tr>
-							<tr><td className="simpleCell align-middle"><TransFat iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td>
-								<td className="simpleCell align-middle"><Pork iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">Left aligned text.</p></td></tr>
+							<tr><td className="simpleCell align-middle"><Chili	  	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Chili')}	  	 </p></td> 
+							    <td className="simpleCell align-middle"><Crustaceans iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Crustaceans')}</p></td></tr>
+							<tr><td className="simpleCell align-middle"><Egg	  	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Egg')}	  	 </p></td>
+							    <td className="simpleCell align-middle"><Glutem	  	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Glutem')}	 </p></td></tr>
+							<tr><td className="simpleCell align-middle"><Milk	  	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Milk')}	  	 </p></td>
+							    <td className="simpleCell align-middle"><SeaFood	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('SeaFood')}	 </p></td></tr>
+							<tr><td className="simpleCell align-middle"><TransFat	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('TransFat')}	 </p></td>
+							    <td className="simpleCell align-middle"><Pork	  	 iconType="modalIcon"/></td><td className="simpleCell align-middle"><p class="text-left">{t('Pork')}	  	 </p></td></tr>
 						</tbody>
 					</table>
 				</Modal.Body>

@@ -36,7 +36,7 @@ function App() {
 
     
     const menu01Items = [
-        {imgSrc: '../img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'), itemDescription:t('menu01ItemA_description'), alergics:['chili','crustaceans','c']},
+        {imgSrc: '../img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'), itemDescription:t('menu01ItemA_description'), alergics:['trnasfat', 'glutem']},
         {imgSrc: '../img/menu_items/menu01/funghi.jpg',     itemName:t('menu01ItemB_name'), itemDescription:t('menu01ItemB_description'), alergics:['glutem']},
         {imgSrc: '../img/menu_items/menu01/margherita.jpg', itemName:t('menu01ItemC_name'), itemDescription:t('menu01ItemC_description'), alergics:[]},
         {imgSrc: '../img/menu_items/menu01/pollo.png',      itemName:t('menu01ItemD_name'), itemDescription:t('menu01ItemD_description'), alergics:[]},
@@ -70,18 +70,18 @@ function App() {
     ]
 
     const menu04Items = [
-        {imgSrc: '../img/menu_items/menu04/acqua_minerale.jpg',     itemName:t('menu04ItemA_name'), itemDescription:t('menu04ItemA_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu04/bevande_analcoliche.jpg',itemName:t('menu04ItemB_name'), itemDescription:t('menu04ItemB_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu04/birra.jpg',              itemName:t('menu04ItemC_name'), itemDescription:t('menu04ItemC_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu04/succo_naturali.jpg',     itemName:t('menu04ItemD_name'), itemDescription:t('menu04ItemD_description'),  alergics:['chili','b','c']}
+        {imgSrc: '../img/menu_items/menu04/acqua_minerale.jpg',     itemName:t('menu04ItemA_name'), itemDescription:t('menu04ItemA_description'),  alergics:[]},
+        {imgSrc: '../img/menu_items/menu04/bevande_analcoliche.jpg',itemName:t('menu04ItemB_name'), itemDescription:t('menu04ItemB_description'),  alergics:[]},
+        {imgSrc: '../img/menu_items/menu04/birra.jpg',              itemName:t('menu04ItemC_name'), itemDescription:t('menu04ItemC_description'),  alergics:[]},
+        {imgSrc: '../img/menu_items/menu04/succo_naturali.jpg',     itemName:t('menu04ItemD_name'), itemDescription:t('menu04ItemD_description'),  alergics:[]}
     ]
 
     const menu05Items = [
-        {imgSrc: '../img/menu_items/menu05/budino_speciale.jpg',itemName:t('menu05ItemA_name'), itemDescription:t('menu05ItemA_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu05/budino.jpg',         itemName:t('menu05ItemB_name'), itemDescription:t('menu05ItemB_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu05/fruit_salad.jpg',    itemName:t('menu05ItemC_name'), itemDescription:t('menu05ItemC_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu05/gelatto.jpg',        itemName:t('menu05ItemD_name'), itemDescription:t('menu05ItemD_description'),  alergics:['chili','b','c']},
-        {imgSrc: '../img/menu_items/menu05/mousse_fragole.jpg', itemName:t('menu05ItemE_name'), itemDescription:t('menu05ItemE_description'),  alergics:['chili','b','c']}
+        {imgSrc: '../img/menu_items/menu05/budino_speciale.jpg',itemName:t('menu05ItemA_name'), itemDescription:t('menu05ItemA_description'),  alergics:['milk','egg']},
+        {imgSrc: '../img/menu_items/menu05/budino.jpg',         itemName:t('menu05ItemB_name'), itemDescription:t('menu05ItemB_description'),  alergics:['milk','egg']},
+        {imgSrc: '../img/menu_items/menu05/fruit_salad.jpg',    itemName:t('menu05ItemC_name'), itemDescription:t('menu05ItemC_description'),  alergics:[]},
+        {imgSrc: '../img/menu_items/menu05/gelatto.jpg',        itemName:t('menu05ItemD_name'), itemDescription:t('menu05ItemD_description'),  alergics:['milk','egg']},
+        {imgSrc: '../img/menu_items/menu05/mousse_fragole.jpg', itemName:t('menu05ItemE_name'), itemDescription:t('menu05ItemE_description'),  alergics:['milk','egg']}
     ]
 
     // Put the items for nav menu, refered in translation.json

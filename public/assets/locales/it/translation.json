@@ -82,5 +82,15 @@
 	"menu05ItemD_name": "Gelato",
 	"menu05ItemD_description": "Gelato di diversi gusti.",
 	"menu05ItemE_name": "Mousse" ,
-	"menu05ItemE_description": "Mousse speciale alla fragola."
+	"menu05ItemE_description": "Mousse speciale alla fragola.",
+
+	"dietaryRestrictions": "Restrizioni dietetiche",
+	"Chili": "Pepe",
+	"Crustaceans": "Crostacei",
+	"Egg": "Uovo",
+	"Glutem": "Glutine",
+	"Milk": "Latte e derivati",
+	"SeaFood": "Frutti di Mare",
+	"TransFat": "Grasse trans",
+	"Pork": "Suino"
 }
