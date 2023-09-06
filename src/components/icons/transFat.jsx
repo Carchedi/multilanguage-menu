@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function TransFat(){
+function TransFat(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/transFat.png" alt="transFat"/>
+           <img className={props.iconType} src="../../../img/icons/transFat.png" alt="transFat"/>
     )
 }
 

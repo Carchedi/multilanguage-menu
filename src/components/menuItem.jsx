@@ -36,28 +36,28 @@ function MenuItem(props){
                         <div class="col-sm">                         
                                 {props.alergics.map((item) =>{
                                     if (item == 'chili') {
-                                        return <Chili/>;
+                                        return <Chili iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'crustaceans') {
-                                        return <Crustaceans/>;
+                                        return <Crustaceans iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'egg') {
-                                        return <Egg/>;
+                                        return <Egg iconType="simpleIcon"/>;
                                     }
                                     if (item == 'glutem') {
-                                        return <Glutem/>;
+                                        return <Glutem iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'milk') {
-                                        return <Milk/>;
+                                        return <Milk iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'pork') {
-                                        return <Pork/>;
+                                        return <Pork iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'seafood') {
-                                        return <SeaFood/>;
+                                        return <SeaFood iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'trnasfat') {
-                                        return <TransFat/>;
+                                        return <TransFat iconType="simpleIcon"/>;
                                     } 
                                 })} 
                              

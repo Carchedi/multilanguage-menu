@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Milk(){
+function Milk(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/milk.png" alt="milk"/>
+           <img className={props.iconType} src="../../../img/icons/milk.png" alt="milk"/>
     )
 }
 

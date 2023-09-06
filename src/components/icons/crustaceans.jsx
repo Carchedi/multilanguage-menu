@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Crustaceans(){
+function Crustaceans(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/crustaceans.png" alt="crustaceans"/>
+           <img className={props.iconType} src="../../../img/icons/crustaceans.png" alt="crustaceans"/>
     )
 }
 

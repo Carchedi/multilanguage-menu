@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Chili(){
+function Chili(props){
     return(     
-        <img className="simpleIcon" src="../../../img/icons/chili.png" alt="chili"/>
+        <img className={props.iconType} src="../../../img/icons/chili.png" alt="chili"/>
     )
 }
 

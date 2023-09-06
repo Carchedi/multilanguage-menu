@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function SeaFood(){
+function SeaFood(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/seafood.png" alt="Sea Food"/>
+           <img className={props.iconType} src="../../../img/icons/seafood.png" alt="Sea Food"/>
     )
 }
 

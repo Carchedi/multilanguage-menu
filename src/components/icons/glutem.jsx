@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Glutem(){
+function Glutem(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/glutem.png" alt="glutem"/>
+           <img className={props.iconType} src="../../../img/icons/glutem.png" alt="glutem"/>
     )
 }
 

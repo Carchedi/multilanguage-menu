@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Pork(){
+function Pork(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/pork.png" alt="pork"/>
+           <img className={props.iconType} src="../../../img/icons/pork.png" alt="pork"/>
     )
 }
 

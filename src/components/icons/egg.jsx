@@ -1,8 +1,8 @@
 import '../icons/iconsConfig.css';
 
-function Egg(){
+function Egg(props){
     return(    
-           <img className="simpleIcon" src="../../../img/icons/egg.png" alt="egg"/>
+           <img className={props.iconType} src="../../../img/icons/egg.png" alt="egg"/>
     )
 }
 
