@@ -1,6 +1,6 @@
 import React, {useState} from "react"; 
 import Modal from 'react-bootstrap/Modal'; 
-import { useTranslation, initReactI18next } from "react-i18next"; 
+import { useTranslation} from "react-i18next"; 
 import i18next from 'i18next'; 
 
 function languageModal(props) {
