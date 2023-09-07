@@ -108,7 +108,7 @@ function App() {
                     items={items}
                 />   
             ))}
-            <ContactUs name={t('menu06')}/>
+                <ContactUs name={t('menu06')}/>
         </>
     );
 }

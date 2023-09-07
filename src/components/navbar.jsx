@@ -13,7 +13,7 @@ function navbar(props) {
   
     return ( 
         <>
-        <nav className="navbar navbar-light bg-light flex-nowrap fixed-top second-line">
+        <nav className="navbar navbar-light bg-light flex-nowrap justify-content-center fixed-top second-line">
             <div className="container">  
                     {props.itens.map(({ path, name }) => ( 
                             <a className="nav-link" href={`#${t(name)}`} onClick={closeToggle}>

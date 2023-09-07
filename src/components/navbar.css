@@ -9,6 +9,17 @@
     width: 100% !important;
 }
 
+.nav-link{
+    padding: 0 !important;
+}
+
+@media (max-width: 978px) {
+    .nav-link{
+        padding-left: 10% !important;
+    }
+}
+
+
 .navbar-light .navbar-toggler{
     color: #fff;
     border-color: rgba(0, 0, 0, .1);

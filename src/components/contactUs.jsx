@@ -1,5 +1,5 @@
-
-function ContactUs(props){
+import './section.css';
+function ContactUs(props){ 
 
     const Phone = ({ width = 70, height = 70}) => (
         <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -26,9 +26,9 @@ function ContactUs(props){
     )
 
     return(
-        <div id={props.name} className="col-md-12">
+        <div id={props.name}  className="w-100 contents">
             <div class="container">
-                <h1>{props.name}</h1>
+                <h1 class='secHeader'>{props.name}</h1>
                 <hr/> 
                 <div class="row"> 
                     <div class="col-md-4 col-sm-6">                        
