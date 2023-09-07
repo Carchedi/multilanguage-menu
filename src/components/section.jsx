@@ -3,9 +3,9 @@ import MenuItem from './menuItem';
 
 function Section(props){
     return(
-        <div id={props.name} className="w-100">
+        <div id={props.name} className="w-100 contents">
             <div class="container">
-            <h1>{props.name}</h1> 
+            <h1 class='secHeader'>{props.name}</h1> 
             <hr/>
                 <div class="row"> 
                     {props.items.map(({imgSrc, itemName,itemDescription, alergics}) => (

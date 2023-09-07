@@ -9,3 +9,12 @@
 .col-md-12{
     margin: 2rem;
 }
+
+.contents{
+    padding-top: 25%;
+}
+
+.secHeader{
+    text-transform: capitalize;
+    font-weight: bold;
+}

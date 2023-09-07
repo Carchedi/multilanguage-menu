@@ -50,5 +50,15 @@
 
 .nav-item{
     color: #f53409;
-} 
+}
+
+.second-line{
+    margin-top: 3rem;
+    overflow-x: auto;
+    overflow-y:hidden;
+}
+
+.second-line a{
+    color: #000000a9;
+}
  

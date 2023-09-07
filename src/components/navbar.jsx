@@ -12,33 +12,26 @@ function navbar(props) {
     }
   
     return ( 
+        <>
+        <nav className="navbar navbar-light bg-light flex-nowrap fixed-top second-line">
+            <div className="container">  
+                    {props.itens.map(({ path, name }) => ( 
+                            <a className="nav-link" href={`#${t(name)}`} onClick={closeToggle}>
+                            {t(name).toUpperCase()}
+                            </a> 
+                    ))} 
+                    <a className="nav-link" href={`#${t("menu06")}`} onClick={closeToggle}>
+                    {t("menu06").toUpperCase()}
+                    </a> 
+            </div>  
+        </nav>
         <nav className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#" id="brandName">Carchedi Ristorante </a> 
-                <button id="chave" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" >
-                    <span className="navbar-toggler-icon"></span>
-                </button>  
-                <LanguageButton languages={props.languages} />
-                <div class="container">
-                    <div className="collapse navbar-collapse" id="navbarText">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-items">
-                            {props.itens.map(({ path, name }) => (
-                                <li className="nav-item active" key={path}>
-                                    <a className="nav-link" href={`#${t(name)}`} onClick={closeToggle}>
-                                    {t(name).toUpperCase()}
-                                    </a>
-                                </li> 
-                            ))}
-                            <li className="nav-item active" key="#">
-                                <a className="nav-link" href={`#${t("menu06")}`} onClick={closeToggle}>
-                                {t("menu06").toUpperCase()}
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <a className="navbar-brand" href="#" id="brandName">Carchedi Ristorante </a>
+                <LanguageButton languages={props.languages} /> 
             </div>
         </nav>
+        </>
     );
 }
 
