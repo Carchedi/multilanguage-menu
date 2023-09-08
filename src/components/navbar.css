@@ -16,6 +16,7 @@
 @media (max-width: 978px) {
     .nav-link{
         padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 }
 
