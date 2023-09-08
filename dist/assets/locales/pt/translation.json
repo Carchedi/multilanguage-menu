@@ -1,7 +1,8 @@
 {
 	"welcome": "descubra todos os nossos pratos",
 	"caption": "Nosso cardápio digital é oferecido no seu idioma",
-	"chooseLang": "Escolha o seu idioma",
+	"chooseLang": "Escolha o seu idioma", 
+    "more": "Mais...",
 	
 	"menu01": "Pizza",
 	"menu02": "Massas",
@@ -11,7 +12,7 @@
 	"menu06": "Contato",
 
 	"menu01ItemA_name": "Calzonne",
-	"menu01ItemA_description": "Um calzone é um prato da culinária italiana feito com massa de pizza que envolve diversos ingredientes, como queijo, presunto, cogumelos e outros, sendo fechado em forma de meia-lua antes de ser assado. O resultado é uma deliciosa iguaria que combina sabores de pizza com a portabilidade de um sanduíche.",
+	"menu01ItemA_description": "Prato da culinária de origem italiana muitas vezes referido como uma pizza recheada, dobrada ao meio antes de ir ao forno.",
 	"menu01ItemB_name": "Cogumelo",
 	"menu01ItemB_description": "Uma pizza coberta de queijo e cogumelos. Quando ainda está quente, o queijo derretido dá uma grande sensação de satisfação.",
 	"menu01ItemC_name": "Margheritta",
