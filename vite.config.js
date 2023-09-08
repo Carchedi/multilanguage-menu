@@ -13,6 +13,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react()],
-  base: "/menuVite/"
+  plugins: [react()], 
 }) 
