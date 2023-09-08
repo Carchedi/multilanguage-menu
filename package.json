@@ -1,5 +1,5 @@
 {
-  "homepage": "https://carcehdi.github.io/menuVite",
+  "homepage": "http://carcehdi.github.io/menuVite",
   "name": "menu",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.0.0",
