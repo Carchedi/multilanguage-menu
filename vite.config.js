@@ -13,6 +13,6 @@ export default defineConfig({
       },
     },
   },
-  base: '/multilanguage-menu/', 
+  base: './multilanguage-menu/', 
   plugins: [react()]
 }) 
