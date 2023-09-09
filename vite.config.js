@@ -14,6 +14,5 @@ export default defineConfig({
     },
   },
   base: '/multilanguage-menu/', 
-  plugins: [react()],
-  base: '/vite-deploy-demo/'
+  plugins: [react()]
 }) 
