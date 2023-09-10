@@ -36,13 +36,13 @@ function App() {
 
     
     const menu01Items = [
-        {imgSrc: './../src/img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'), itemDescription:t('menu01ItemA_description'), alergics:['trnasfat', 'glutem']},
-        {imgSrc: './../src/img/menu_items/menu01/funghi.jpg',     itemName:t('menu01ItemB_name'), itemDescription:t('menu01ItemB_description'), alergics:['glutem']},
-        {imgSrc: './../src/img/menu_items/menu01/margherita.jpg', itemName:t('menu01ItemC_name'), itemDescription:t('menu01ItemC_description'), alergics:[]},
-        {imgSrc: './../src/img/menu_items/menu01/pollo.png',      itemName:t('menu01ItemD_name'), itemDescription:t('menu01ItemD_description'), alergics:[]},
-        {imgSrc: './../src/img/menu_items/menu01/prosciutto.jpg', itemName:t('menu01ItemE_name'), itemDescription:t('menu01ItemE_description'), alergics:[]},
-        {imgSrc: './../src/img/menu_items/menu01/salame.jpg',     itemName:t('menu01ItemF_name'), itemDescription:t('menu01ItemF_description'), alergics:[]},
-        {imgSrc: './../src/img/menu_items/menu01/tonno.jpg',      itemName:t('menu01ItemG_name'), itemDescription:t('menu01ItemG_description'), alergics:[]}
+        {imgSrc: './src/img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'), itemDescription:t('menu01ItemA_description'), alergics:['trnasfat', 'glutem']},
+        {imgSrc: './src/img/menu_items/menu01/funghi.jpg',     itemName:t('menu01ItemB_name'), itemDescription:t('menu01ItemB_description'), alergics:['glutem']},
+        {imgSrc: './src/img/menu_items/menu01/margherita.jpg', itemName:t('menu01ItemC_name'), itemDescription:t('menu01ItemC_description'), alergics:[]},
+        {imgSrc: './src/img/menu_items/menu01/pollo.png',      itemName:t('menu01ItemD_name'), itemDescription:t('menu01ItemD_description'), alergics:[]},
+        {imgSrc: './src/img/menu_items/menu01/prosciutto.jpg', itemName:t('menu01ItemE_name'), itemDescription:t('menu01ItemE_description'), alergics:[]},
+        {imgSrc: './src/img/menu_items/menu01/salame.jpg',     itemName:t('menu01ItemF_name'), itemDescription:t('menu01ItemF_description'), alergics:[]},
+        {imgSrc: './src/img/menu_items/menu01/tonno.jpg',      itemName:t('menu01ItemG_name'), itemDescription:t('menu01ItemG_description'), alergics:[]}
     ]
 
     const menu02Items = [
