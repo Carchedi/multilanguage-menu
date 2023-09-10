@@ -32,32 +32,23 @@ function ContactUs(props){
                 <hr/> 
                 <div class="row"> 
                     <div class="col-md-4 col-sm-6">                        
-                        <div class="card mb-2 align-items-center justify-content-center"> 
+                        <div class="card mb-2 align-items-center justify-content-center">  
                             <div class="card-body"> 
-                                <Mail /> 
-                            </div>
-                            <div class="card-body"> 
-                                <a href="mailto:carchedi.ufjf@gmail.com">Email</a>
+                                <a href="mailto:carchedi.ufjf@gmail.com"><Mail /></a>
                             </div>
                         </div>
                     </div> 
                     <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" >
-                            <div class="card-body"> 
-                                <Instagram /> 
-                            </div>
                             <div class="card-body">
-                                <a href="https://www.instagram.com/carchedi.ufjf/">Instagram</a>
+                                <a href="https://www.instagram.com/carchedi.ufjf/"><Instagram /></a>
                             </div>                        
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" > 
-                            <div class="card-body"> 
-                                <Whatsapp /> 
-                            </div>
                             <div class="card-body">  
-                                <a href="https://api.whatsapp.com/send?phone=5532999735726">Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5532999735726"><Whatsapp /> </a>
                             </div>
                         </div>
                     </div>

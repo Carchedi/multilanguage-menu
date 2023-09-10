@@ -1,6 +1,9 @@
 body{
     max-width: 100%;
 }
+a{
+    color: black !important;
+}
 
 .col-md-12 h1{
     padding-top: 4rem; 
