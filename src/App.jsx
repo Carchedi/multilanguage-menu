@@ -20,7 +20,7 @@ i18n
             order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
             caches: ['cookies']
         },
-        backend: { loadPath: '/assets/locales/{{lng}}/translation.json'},
+        backend: { loadPath: './assets/locales/{{lng}}/translation.json'},
         react: { useSuspense: false }
     });
 
