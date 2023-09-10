@@ -1,7 +1,7 @@
 body{
     max-width: 100%;
 }
- 
+
 .col-md-12 h1{
     padding-top: 4rem; 
     font-size: 1.6rem;
@@ -27,4 +27,8 @@ body{
 .secHeader{
     text-transform: capitalize;
     font-weight: bold;
+}
+
+.contactUSIcons{
+    color: black !important;
 }

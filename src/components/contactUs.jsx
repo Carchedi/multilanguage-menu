@@ -34,21 +34,21 @@ function ContactUs(props){
                     <div class="col-md-4 col-sm-6">                        
                         <div class="card mb-2 align-items-center justify-content-center">  
                             <div class="card-body"> 
-                                <a href="mailto:carchedi.ufjf@gmail.com"><Mail /></a>
+                                <a href="mailto:carchedi.ufjf@gmail.com" className="contactUSIcons"><Mail /></a>
                             </div>
                         </div>
                     </div> 
                     <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" >
                             <div class="card-body">
-                                <a href="https://www.instagram.com/carchedi.ufjf/"><Instagram /></a>
+                                <a href="https://www.instagram.com/carchedi.ufjf/" className="contactUSIcons"><Instagram /></a>
                             </div>                        
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">                           
                         <div class="card mb-2 align-items-center justify-content-center" > 
                             <div class="card-body">  
-                                <a href="https://api.whatsapp.com/send?phone=5532999735726"><Whatsapp /> </a>
+                                <a href="https://api.whatsapp.com/send?phone=5532999735726" className="contactUSIcons"><Whatsapp /> </a>
                             </div>
                         </div>
                     </div>
