@@ -73,4 +73,11 @@
 .second-line a{
     color: #000000a9;
 }
- 
+
+.second-line a:hover{
+    color: #f53409 !important;
+}
+
+#menuNav:active{
+    transform: translateX( -100px);
+}

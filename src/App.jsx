@@ -34,6 +34,7 @@ const languages = [
 function App() {
     const { t } = useTranslation() 
 
+    const brandName = "Carchedi Ristorante"
     
     const menu01Items = [
         {imgSrc: 'img/menu_items/menu01/calzonne.jpg',   itemName:t('menu01ItemA_name'), itemDescription:t('menu01ItemA_description'), alergics:['trnasfat', 'glutem']},
@@ -86,26 +87,29 @@ function App() {
 
     // Put the items for nav menu, refered in translation.json
     const navItens = [
-        {path: '#', name: 'menu01', items: menu01Items},
-        {path: '#', name: 'menu02', items: menu02Items},
-        {path: '#', name: 'menu03', items: menu03Items},
-        {path: '#', name: 'menu04', items: menu04Items},
-        {path: '#', name: 'menu05', items: menu05Items}
+        {path: '#', name: 'menu01', id: 'menu01', items: menu01Items},
+        {path: '#', name: 'menu02', id: 'menu02', items: menu02Items},
+        {path: '#', name: 'menu03', id: 'menu03', items: menu03Items},
+        {path: '#', name: 'menu04', id: 'menu04', items: menu04Items},
+        {path: '#', name: 'menu05', id: 'menu05', items: menu05Items}
     ]
    
     return (
         <> 
-            <Navbar languages = {languages} itens = {navItens}/> 
+            <Navbar 
+                languages = {languages} 
+                itens = {navItens}
+                brand={brandName}/> 
             <Banner 
                 mainText={t('welcome')}
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            />  
+            /> 
             {navItens.map(({name, items}) => (
                 <Section 
                     name={t(name)}
-                    items={items}
+                    items={items} 
                 />   
             ))}
                 <ContactUs name={t('menu06')}/>
