@@ -8,7 +8,8 @@ import Banner from './components/banner';
 import Navbar from './components/navbar'; 
 import Section from './components/section'
 import ContactUs from './components/contactUs';
-
+import $ from 'jquery';
+ 
 i18n
     .use(initReactI18next)
     .use(LanguageDetector)
@@ -92,10 +93,10 @@ function App() {
         {path: '#', name: 'menu03', id: 'menu03', items: menu03Items},
         {path: '#', name: 'menu04', id: 'menu04', items: menu04Items},
         {path: '#', name: 'menu05', id: 'menu05', items: menu05Items}
-    ]
-   
+    ] 
+ 
     return (
-        <> 
+        <>   
             <Navbar 
                 languages = {languages} 
                 itens = {navItens}
@@ -112,7 +113,7 @@ function App() {
                     items={items} 
                 />   
             ))}
-                <ContactUs name={t('menu06')}/>
+                <ContactUs name={t('menu06')}/> 
         </>
     );
 }

@@ -17,9 +17,9 @@ function MenuItem(props){
     let w = 0;
 
     if(props.alergics.length > 0){
-        w = 30;
+        w = 25;
     } 
-
+ 
     return( 
         <div className="card border-secondary" >
             <div className="card-header">{props.itemName}</div>
@@ -56,7 +56,7 @@ function MenuItem(props){
                                         return <SeaFood iconType="simpleIcon"/>;
                                     } 
                                     if (item == 'trnasfat') {
-                                        return <TransFat iconType="simpleIcon"/>;
+                                        return <TransFat iconType="simpleIcon"/>; 
                                     } 
                                 })} 
                              
@@ -67,8 +67,7 @@ function MenuItem(props){
                             />        
                         </div>  
                     </div>
-                </div>
-                 
+                </div> 
             </div>
         </div>
     )
