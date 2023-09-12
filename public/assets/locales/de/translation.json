@@ -2,7 +2,13 @@
     "welcome": "Entdecken Sie alle unsere Gerichte",
     "caption": "Unsere digitale Speisekarte wird in Ihrer Sprache angeboten",
     "chooseLang": "Wähle deine Sprache", 
-    "more": "Mehr...",
+    "about":"Über das Projekt",
+    "aboutp1":"Dieses Projekt zielt darauf ab, Unterstützung für Menüs in Umgebungen bereitzustellen, deren Zielgruppe durch Muttersprachler verschiedener Sprachen geprägt ist.",
+    "aboutp2":"Die Idee dreht sich um ein physisches Menü, bei dem es für jeden verfügbaren Artikel ein Bild, Preise und eine kurze Beschreibung der Hauptzutaten in jeder vom Restaurant gewählten Sprache gibt. Dieses Menü enthält Folgendes: Der QR-Code, der den Kunden zu einer Website wie dieser weiterleitet, deren Ziel eine detailliertere Darstellung der einzelnen Menüpunkte ist: Anzeige des Bildes des Gerichts (wie auf der physischen Speisekarte) und eines erläuternden Textes über das Gericht und seine Gerichte Inhaltsstoffe sowie Informationen über mögliche damit verbundene diätetische Einschränkungen.",
+    "aboutp3":"Durch den Zugriff auf die digitale Speisekarte kann sich der Kunde in seiner eigenen Sprache über jedes Gericht informieren. Dieses Erlebnis bietet dem Kunden mehr Komfort und Sicherheit bei der Auswahl, da er mehr Artikel auswählen und mitbringen kann Sie, die Garantie für eine richtige Wahl.",
+    "aboutp4":"Schließlich besteht die Idee dieses Projekts darin, dass es völlig flexibel (in Bezug auf Inhalt und visuelle Aspekte) auf die Anpassungen der Umgebung reagiert, die es bieten wird, und es im Einklang mit der visuellen Identität der Einrichtung bleibt.",
+
+    "close":"schließen",
     
     "menu01":"Pizza",
     "menu02":"Pasta",

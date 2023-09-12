@@ -1,5 +1,6 @@
 import './banner.css'
 import Modal from './modal';
+import ProjectInfo from './modalProjectInfo';
 
 function Banner(props){
  
@@ -16,7 +17,10 @@ function Banner(props){
                         <Modal 
                             chooseLanguage={props.chooseLanguage}
                             languages={props.languages}
-                        />
+                        /> 
+                    </div>
+                    <div className="col-lg-10 mx-auto">
+                        <ProjectInfo/>
                     </div>
                     
                 </div>

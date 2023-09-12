@@ -1,8 +1,8 @@
 {
     "welcome":"discover all our dishes",
     "caption": "Our digital menu is offered in your language",
-    "chooseLang": "Choose your language", 
-    "more": "More...",
+    "chooseLang": "Choose your language",  
+    "sobre":"About this project",
 
     "menu01":"Pizza",
     "menu02":"Pastas",

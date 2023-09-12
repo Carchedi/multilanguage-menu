@@ -2,7 +2,12 @@
     "welcome":"scopri tutti i nostri piatti",
     "caption": "Il nostro menu digitale è offerto nella tua lingua",
     "chooseLang": "Segli la tua lingua",
-    "more": "Di più...",
+    "about":"Informazioni sul progetto",
+    "aboutp1":"Questo progetto mira a fornire supporto per i menu in ambienti il ​​cui pubblico di destinazione è caratterizzato da madrelingua di diverse lingue.",
+    "aboutp2":"L'idea ruota attorno ad un menu fisico, dove per ogni articolo disponibile ci saranno un'immagine, i prezzi e una breve descrizione degli ingredienti principali in ciascuna delle lingue scelte dalla struttura. Questo menu viene fornito con il codice QR che indirizza il cliente verso un sito come questo, il cui obiettivo è una presentazione più dettagliata di ciascuna voce del menu: visualizzazione dell'immagine del piatto (come nel menu fisico), e un testo esplicativo sul piatto e sulla sua ingredienti, nonché informazioni su possibili restrizioni dietetiche ad esso correlate.",
+    "aboutp3":"Accedendo al menu complementare digitale, il cliente potrà informarsi, nella propria lingua, su ogni piatto. Questa esperienza fornisce al cliente maggiore comodità e sicurezza nelle scelte, permettendogli di scegliere più piatti e di portare con sé tu, la garanzia di una scelta giusta.",
+    "aboutp4":"Infine, l'idea di questo progetto è che sia completamente flessibile (in termini di contenuti e aspetti visivi) alle personalizzazioni dell'ambiente che lo offrirà, lasciandolo in accordo con l'identità visiva della struttura. ",
+    "close":"chiudere",
     
     "menu01":"Pizza",
     "menu02":"Paste",

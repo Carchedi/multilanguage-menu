@@ -1,0 +1,13 @@
+.projectButton{
+        background: rgb(71, 71, 71) !important;
+        margin: 5% !important;
+        color: white;
+}
+
+#closeModalInfo{
+        background: rgb(71, 71, 71) !important; 
+        color: white;
+        font-weight: 700;
+        text-transform: capitalize;
+
+}
