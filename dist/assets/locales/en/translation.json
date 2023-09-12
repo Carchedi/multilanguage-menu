@@ -1,8 +1,13 @@
 {
     "welcome":"discover all our dishes",
     "caption": "Our digital menu is offered in your language",
-    "chooseLang": "Choose your language",  
-    "sobre":"About this project",
+    "chooseLang": "Choose your language", 
+    "about":"About this project",
+    "aboutp1":"This project aims to provide support for menus in environments whose target audience is characterized by native speakers of different languages.",
+    "aboutp2":"The idea revolves around a physical menu, where for each item available, there will be an image, prices and a brief description of the main ingredients in each of the languages chosen by the establishment. This menu comes with the QR code that directs the customer to a website like this, whose objective is a more detailed presentation of each of the menu items: displaying the image of the dish (as on the physical menu), and an explanatory text about the dish and its ingredients, as well as information about possible dietary restrictions related to it.",
+    "aboutp3":"By accessing the digital menu complement, the customer can find out, in their own language, about each dish. This experience provides the customer with greater comfort and security in their choices, enabling them to choose more items and bringing with you, the guarantee of a right choice.",
+    "aboutp4":"Finally, the idea of this project is that it is completely flexible (in terms of content and visual aspects) to the customizations of the environment that will offer it, leaving it in accordance with the establishment's visual identity.",
+    "close":"close",
 
     "menu01":"Pizza",
     "menu02":"Pastas",

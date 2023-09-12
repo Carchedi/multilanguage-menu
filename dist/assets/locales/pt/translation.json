@@ -2,7 +2,12 @@
 	"welcome": "descubra todos os nossos pratos",
 	"caption": "Nosso cardápio digital é oferecido no seu idioma",
 	"chooseLang": "Escolha o seu idioma", 
-    	"thisSite": "Sobre o projeto",
+    	"about": "Sobre o projeto",
+	"aboutp1":"Esse projeto tem por objetivo fornecer um apoio a cardápios de ambientes cujo público alvo tem como característica nativos de diferentes idiomas.",	
+	"aboutp2":"A ideia gira em torno de um cardápio físico, onde para cada item disponível, haverá uma imagem, preços e a descricao  sucinta dos principais ingredientes em cada um dos idiomas escolhidos pelo estabelecimento. Esse cardápio vêm com o QR code que direciona o cliente a um site como este, cujo o objetivo é uma apresentação mais detalhada de cada um dos itens do cardápio: exibindo a imagem do prato (tal como no cardápio físico), e um texto explicativo sobre o prato e seus ingredientes, assim como informações sobre as possíveis restrições alimentares relacionadas ao mesmo.",
+	"aboutp3":"Ao acessar o complemento digital do cardápio, o cliente pode saber, no seu prṕrio idioma, a respeito de cada prato. Essa experiência proporciona ao cliente maior conforto e segurnaça em suas escolhas, possibilitando-o escolher mais itens e trazendo consigo, a garantia de uma escolha acertada.",
+	"aboutp4":"Finalmente, a ideia desse projeto é que seja completamente flexível (por parte dos conteúdos e a parte visual) às personalizações do ambiente que irá oferecê-lo, deixando-o em conformidade com a identidade visual do estabelecimento.",
+	"close": "fechar",
 	
 	"menu01": "Pizza",
 	"menu02": "Massas",

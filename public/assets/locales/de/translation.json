@@ -1,22 +1,22 @@
 {
-    "welcome": "Entdecken Sie alle unsere Gerichte",
-    "caption": "Unsere digitale Speisekarte wird in Ihrer Sprache angeboten",
-    "chooseLang": "Wähle deine Sprache", 
-    "about":"Über das Projekt",
-    "aboutp1":"Dieses Projekt zielt darauf ab, Unterstützung für Menüs in Umgebungen bereitzustellen, deren Zielgruppe durch Muttersprachler verschiedener Sprachen geprägt ist.",
-    "aboutp2":"Die Idee dreht sich um ein physisches Menü, bei dem es für jeden verfügbaren Artikel ein Bild, Preise und eine kurze Beschreibung der Hauptzutaten in jeder vom Restaurant gewählten Sprache gibt. Dieses Menü enthält Folgendes: Der QR-Code, der den Kunden zu einer Website wie dieser weiterleitet, deren Ziel eine detailliertere Darstellung der einzelnen Menüpunkte ist: Anzeige des Bildes des Gerichts (wie auf der physischen Speisekarte) und eines erläuternden Textes über das Gericht und seine Gerichte Inhaltsstoffe sowie Informationen über mögliche damit verbundene diätetische Einschränkungen.",
-    "aboutp3":"Durch den Zugriff auf die digitale Speisekarte kann sich der Kunde in seiner eigenen Sprache über jedes Gericht informieren. Dieses Erlebnis bietet dem Kunden mehr Komfort und Sicherheit bei der Auswahl, da er mehr Artikel auswählen und mitbringen kann Sie, die Garantie für eine richtige Wahl.",
-    "aboutp4":"Schließlich besteht die Idee dieses Projekts darin, dass es völlig flexibel (in Bezug auf Inhalt und visuelle Aspekte) auf die Anpassungen der Umgebung reagiert, die es bieten wird, und es im Einklang mit der visuellen Identität der Einrichtung bleibt.",
+	"welcome": "Entdecken Sie alle unsere Gerichte",
+	"caption": "Unsere digitale Speisekarte wird in Ihrer Sprache angeboten",
+	"chooseLang": "Wähle deine Sprache",
+	
+	"about": "Über das Projekt",
+	"aboutp1": "Dieses Projekt zielt darauf ab, Unterstützung für Menüs in Umgebungen bereitzustellen, deren Zielgruppe durch Muttersprachler verschiedener Sprachen geprägt ist.",
+	"aboutp2": "Die Idee dreht sich um ein physisches Menü, bei dem es für jeden verfügbaren Artikel ein Bild, Preise und eine kurze Beschreibung der Hauptzutaten in jeder vom Restaurant gewählten Sprache gibt. Dieses Menü enthält Folgendes: Ein QR-Code, der den Kunden zu einer Website wie dieser weiterleitet, deren Ziel eine detailliertere Darstellung der einzelnen Menüpunkte ist: Anzeige des Bildes des Gerichts (wie auf der physischen Speisekarte) und eines erläuternden Textes über das Gericht und seine Gerichte Inhaltsstoffe sowie Informationen über mögliche damit verbundene diätetische Einschränkungen.",
+	"aboutp3": "Durch den Zugriff auf die digitale Speisekarte kann sich der Kunde in seiner eigenen Sprache über jedes Gericht informieren. Dieses Erlebnis bietet dem Kunden mehr Komfort und Sicherheit bei der Auswahl, da er mehr Artikel auswählen und mitbringen kann Sie, die Garantie für eine richtige Wahl.",
+	"aboutp4": "Schließlich besteht die Idee dieses Projekts darin, dass es völlig flexibel ist und es der Umgebung, die es bietet, ermöglicht, seinen Inhalt und seine visuelle Identität zu ändern, sodass es im Einklang mit der visuellen Identität der Einrichtung bleibt.",
+	"close": "schließen",
 
-    "close":"schließen",
-    
-    "menu01":"Pizza",
-    "menu02":"Pasta",
-    "menu03":"Salate",
-    "menu04":"Getränke",
-    "menu05":"Nachspeisen",
-    "menu06":"Kontakt",
-     
+	"menu01": "Pizza",
+	"menu02": "Pasta",
+	"menu03": "Salate",
+	"menu04": "Getränke",
+	"menu05": "Nachspeisen",
+	"menu06": "Kontakt",
+
 	"menu01ItemA_name": "Calzonne",
 	"menu01ItemA_description": "Ein Gericht der italienischen Küche, das oft als gefüllte Pizza bezeichnet wird und in der Mitte gefaltet wird, bevor es in den Ofen kommt.",
 	"menu01ItemB_name": "Pilz",
@@ -31,13 +31,13 @@
 	"menu01ItemF_description": "Großzügiger Belag mit Tomatensauce, köstlichen Salamischeiben und cremigem Mozzarella-Käse.",
 	"menu01ItemG_name": "Thunfisch",
 	"menu01ItemG_description": "Tomatensauce, Mozzarella und Thunfisch. Thunfisch und Mozzarella bilden ein unschlagbares Geschmacksduo. Speziell für edle Gaumen, die die klassischsten Pizzavarianten zu schätzen wissen.",
-
+	
 	"menu02ItemA_name": "Cannelloni",
 	"menu02ItemA_description": "Typisch italienische zylindrische Nudeln. Das Produkt wird normalerweise mit einer herzhaften Füllung gegessen, die neben Hackfleisch auch Käse enthalten kann. Anschließend wird es mit einer Sauce, die Bolognese oder Béchamel sein kann, überzogen und im Ofen gratiniert.",
 	"menu02ItemB_name": "Gnocchi",
 	"menu02ItemB_description": "Nudeln, zubereitet aus einer Mischung aus Kartoffeln oder Maniok mit Weizenmehl, ein typisches Gericht der italienischen Küche, das mit Soßen serviert werden kann: Sugo, Bolognese oder Weiß.",
 	"menu02ItemC_name": "Lasagne",
-	"menu02ItemC_description": "Nudeln, die aus breiten Bändern bestehen, sowie ein Gericht, manchmal Ofenlasagne genannt, das aus diesen in Schichten angeordneten Bändern besteht und mit Füllung (Käse, Schinken, Hackfleisch oder andere) und Soße durchsetzt ist." ,
+	"menu02ItemC_description": "Nudeln, die aus breiten Bändern bestehen, sowie ein Gericht, manchmal Ofenlasagne genannt, das aus diesen in Schichten angeordneten Bändern besteht und mit Füllung (Käse, Schinken, Hackfleisch oder andere) und Soße durchsetzt ist.",
 	"menu02ItemD_name": "Sprache",
 	"menu02ItemD_description": "Pasta wird oft mit Spaghetti verglichen, ist aber etwas breiter. Die Linguine-Form eignet sich ideal für die Kombination mit leichteren Saucen wie Olivenöl, Knoblauch und Paprikasaucen sowie Saucen auf Meeresfrüchtebasis wie Muscheln Soße.",
 	"menu02ItemE_name": "Spezielle Pasta",
@@ -50,7 +50,7 @@
 	"menu02ItemH_description": "Italiens traditionellster Schnitt, weltweit bekannt für seine Vielseitigkeit und lange zylindrische Form. Er kann mit den unterschiedlichsten Saucenarten serviert werden.",
 	"menu02ItemI_name": "Fadennudeln",
 	"menu02ItemI_description": "Eine Art dünner und länglicher Nudeln, die sich perfekt für die Zubereitung von Gerichten wie Suppen, Salaten, Saucen und sogar Desserts eignen. Dank ihrer Vielseitigkeit können Sie unzählige Gerichte zubereiten, was sie zu einer beliebten Wahl in der Küche macht.",
-
+	
 	"menu03ItemA_name": "Aus dem Haus",
 	"menu03ItemA_description": "Spezialsalat des Hauses, perfekt für heiße Tage. Bietet eine leichte und gesunde Mahlzeit.",
 	"menu03ItemB_name": "Abgeschlossen",
@@ -69,8 +69,7 @@
 	"menu03ItemH_description": "Meeresfrüchtesalat.",
 	"menu03ItemI_name": "Grundlegend",
 	"menu03ItemI_description": "Einfacher Salat mit den grundlegendsten Elementen für eine gute Ernährung.",
- 
-
+	
 	"menu04ItemA_name": "Mineralwasser",
 	"menu04ItemA_description": "Natürliches Mineralwasser, gekühlt oder bei Raumtemperatur.",
 	"menu04ItemB_name": "Soda",
@@ -79,7 +78,7 @@
 	"menu04ItemC_description": "Beliebte Biere, Craft-Biere und Spezialbiere.",
 	"menu04ItemD_name": "Natürlicher Saft",
 	"menu04ItemD_description": "Verschiedene natürliche Saftoptionen.",
-
+	
 	"menu05ItemA_name": "Spezieller Pudding",
 	"menu05ItemA_description": "Spezieller Sahnepudding mit Schokoladen- und Erdbeerbeilage.",
 	"menu05ItemB_name": "Pudding",
@@ -90,7 +89,7 @@
 	"menu05ItemD_description": "Eis in verschiedenen Geschmacksrichtungen.",
 	"menu05ItemE_name": "Mousse",
 	"menu05ItemE_description": "Spezielles Erdbeermousse.",
-
+	
 	"dietaryRestrictions": "Diätetische Einschränkungen",
 	"Chili": "Pfeffer",
 	"Crustaceans": "Krebstiere",

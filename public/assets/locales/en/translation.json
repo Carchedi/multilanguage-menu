@@ -1,21 +1,22 @@
 {
-    "welcome":"discover all our dishes",
-    "caption": "Our digital menu is offered in your language",
-    "chooseLang": "Choose your language", 
-    "about":"About this project",
-    "aboutp1":"This project aims to provide support for menus in environments whose target audience is characterized by native speakers of different languages.",
-    "aboutp2":"The idea revolves around a physical menu, where for each item available, there will be an image, prices and a brief description of the main ingredients in each of the languages chosen by the establishment. This menu comes with the QR code that directs the customer to a website like this, whose objective is a more detailed presentation of each of the menu items: displaying the image of the dish (as on the physical menu), and an explanatory text about the dish and its ingredients, as well as information about possible dietary restrictions related to it.",
-    "aboutp3":"By accessing the digital menu complement, the customer can find out, in their own language, about each dish. This experience provides the customer with greater comfort and security in their choices, enabling them to choose more items and bringing with you, the guarantee of a right choice.",
-    "aboutp4":"Finally, the idea of this project is that it is completely flexible (in terms of content and visual aspects) to the customizations of the environment that will offer it, leaving it in accordance with the establishment's visual identity.",
-    "close":"close",
-
-    "menu01":"Pizza",
-    "menu02":"Pastas",
-    "menu03":"Salads",
-    "menu04":"Drinks",
-    "menu05":"Desserts",
-    "menu06":"Contact",
-    
+	"welcome": "discover all our dishes",
+	"caption": "Our digital menu is offered in your language",
+	"chooseLang": "Choose your language",
+	
+	"about": "About this project",
+	"aboutp1": "This project aims to provide support for menus in environments whose target audience is characterized by native speakers of different languages.",
+	"aboutp2": "The idea revolves around a physical menu, where for each item available, there will be an image, prices and a brief description of the main ingredients in each of the languages chosen by the establishment. This menu comes with a QR code that directs the customer to a website like this, whose objective is a more detailed presentation of each of the menu items: displaying the image of the dish (as on the physical menu), and an explanatory text about the dish and its ingredients, as well as information about possible dietary restrictions related to it.",
+	"aboutp3": "By accessing the digital menu complement, the customer can find out, in their own language, about each dish. This experience provides the customer with greater comfort and security in their choices, enabling them to choose more items and bringing with you, the guarantee of a right choice.",
+	"aboutp4": "Finally, the idea of this project is that it is completely flexible, allowing the environment that will offer it to change its content and visual identity, leaving it in accordance with the visual identity of the establishment.",
+	"close": "close",
+	
+	"menu01": "Pizza",
+	"menu02": "Pastas",
+	"menu03": "Salads",
+	"menu04": "Drinks",
+	"menu05": "Desserts",
+	"menu06": "Contact",
+	
 	"menu01ItemA_name": "Calzonne",
 	"menu01ItemA_description": "A dish of Italian cuisine often referred to as a stuffed pizza, folded in half before going into the oven.",
 	"menu01ItemB_name": "Mushroom",
@@ -30,13 +31,13 @@
 	"menu01ItemF_description": "Generous topping of tomato sauce, delicious Salami slices and creamy Mozzarella cheese.",
 	"menu01ItemG_name": "Tuna",
 	"menu01ItemG_description": "Tomato sauce, mozzarella and tuna. Tuna and mozzarella form an unbeatable duo when it comes to flavor. Made especially for noble palates who appreciate the most classic pizza options.",
-
+	
 	"menu02ItemA_name": "Cannelloni",
 	"menu02ItemA_description": "Typically Italian cylindrical pasta. The product is usually eaten with a savory filling that may include cheese in addition to ground meat. It is then covered with a sauce that can be Bolognese or Béchamel and gratinated in the oven.",
 	"menu02ItemB_name": "Gnocchi",
 	"menu02ItemB_description": "Pasta prepared with a mixture of potatoes or cassava with wheat flour, a typical dish of Italian cuisine, which can be served with sauces: sugo, bolognese or white.",
 	"menu02ItemC_name": "Lasagna",
-	"menu02ItemC_description": "Pasta formed by wide ribbons, as well as a dish, sometimes called oven lasagna, made with these ribbons placed in layers, and interspersed with stuffing (cheese, ham, ground meat or others) and sauce." ,
+	"menu02ItemC_description": "Pasta formed by wide ribbons, as well as a dish, sometimes called oven lasagna, made with these ribbons placed in layers, and interspersed with stuffing (cheese, ham, ground meat or others) and sauce.",
 	"menu02ItemD_name": "Linguine",
 	"menu02ItemD_description": "Pasta is often compared to spaghetti, but is slightly wider. The linguine shape is ideal for pairing with lighter sauces, such as olive oil, garlic, and red pepper sauces, as well as sauces based on seafood, like clam sauce.",
 	"menu02ItemE_name": "Special pasta",
@@ -49,7 +50,7 @@
 	"menu02ItemH_description": "Italy's most traditional cut, known worldwide for its versatility and long cylindrical shape. It can be served with the most varied types of sauces.",
 	"menu02ItemI_name": "Vermicelli",
 	"menu02ItemI_description": "A type of thin and elongated pasta, perfect for preparing dishes such as soups, salads, sauces and even desserts. Its versatility allows you to create an infinity of dishes, making it a popular choice in the kitchen.",
-
+	
 	"menu03ItemA_name": "From the House",
 	"menu03ItemA_description": "House special salad, perfect for hot days. Providing a light and healthy meal.",
 	"menu03ItemB_name": "Complete",
@@ -68,7 +69,7 @@
 	"menu03ItemH_description": "Seafood salad.",
 	"menu03ItemI_name": "Basic",
 	"menu03ItemI_description": "Simple salad, with the most basic elements for good nutrition.",
-
+	
 	"menu04ItemA_name": "Mineral Water",
 	"menu04ItemA_description": "Natural mineral water, chilled or at room temperature.",
 	"menu04ItemB_name": "Soda",
@@ -77,7 +78,7 @@
 	"menu04ItemC_description": "Popular, craft and specialty beers.",
 	"menu04ItemD_name": "Natural Juice",
 	"menu04ItemD_description": "Different natural juice options.",
-
+	
 	"menu05ItemA_name": "Special Pudding",
 	"menu05ItemA_description": "Special cream pudding with chocolate and strawberry accompaniment.",
 	"menu05ItemB_name": "Pudding",
@@ -86,9 +87,9 @@
 	"menu05ItemC_description": "Carefully selected fruit salad to provide a unique flavor experience",
 	"menu05ItemD_name": "Ice Cream",
 	"menu05ItemD_description": "Ice cream of different flavors.",
-	"menu05ItemE_name": "Mousse" ,
+	"menu05ItemE_name": "Mousse",
 	"menu05ItemE_description": "Special strawberry mousse.",
-
+	
 	"dietaryRestrictions": "Dietary Restrictions",
 	"Chili": "Chili",
 	"Crustaceans": "Crustaceans",

@@ -1,20 +1,21 @@
 {
-    "welcome":"scopri tutti i nostri piatti",
-    "caption": "Il nostro menu digitale è offerto nella tua lingua",
-    "chooseLang": "Segli la tua lingua",
-    "about":"Informazioni sul progetto",
-    "aboutp1":"Questo progetto mira a fornire supporto per i menu in ambienti il ​​cui pubblico di destinazione è caratterizzato da madrelingua di diverse lingue.",
-    "aboutp2":"L'idea ruota attorno ad un menu fisico, dove per ogni articolo disponibile ci saranno un'immagine, i prezzi e una breve descrizione degli ingredienti principali in ciascuna delle lingue scelte dalla struttura. Questo menu viene fornito con il codice QR che indirizza il cliente verso un sito come questo, il cui obiettivo è una presentazione più dettagliata di ciascuna voce del menu: visualizzazione dell'immagine del piatto (come nel menu fisico), e un testo esplicativo sul piatto e sulla sua ingredienti, nonché informazioni su possibili restrizioni dietetiche ad esso correlate.",
-    "aboutp3":"Accedendo al menu complementare digitale, il cliente potrà informarsi, nella propria lingua, su ogni piatto. Questa esperienza fornisce al cliente maggiore comodità e sicurezza nelle scelte, permettendogli di scegliere più piatti e di portare con sé tu, la garanzia di una scelta giusta.",
-    "aboutp4":"Infine, l'idea di questo progetto è che sia completamente flessibile (in termini di contenuti e aspetti visivi) alle personalizzazioni dell'ambiente che lo offrirà, lasciandolo in accordo con l'identità visiva della struttura. ",
-    "close":"chiudere",
-    
-    "menu01":"Pizza",
-    "menu02":"Paste",
-    "menu03":"insalate",
-    "menu04":"Bevande",
-    "menu05":"Dolci",
-    "menu06":"Contatto",
+	"welcome": "scopri tutti i nostri piatti",
+	"caption": "Il nostro menu digitale è offerto nella tua lingua",
+	"chooseLang": "Segli la tua lingua",
+
+	"about": "Informazioni sul progetto",
+	"aboutp1": "Questo progetto mira a fornire supporto per i menu in ambienti il ​​cui pubblico di destinazione è caratterizzato da madrelingua di diverse lingue.",
+	"aboutp2": "L'idea ruota attorno ad un menu fisico, dove per ogni articolo disponibile ci saranno un'immagine, i prezzi e una breve descrizione degli ingredienti principali in ciascuna delle lingue scelte dalla struttura. Questo menu viene fornito con un codice QR che indirizza il cliente verso un sito come questo, il cui obiettivo è una presentazione più dettagliata di ciascuna voce del menu: visualizzazione dell'immagine del piatto (come nel menu fisico), e un testo esplicativo sul piatto e sulla sua ingredienti, nonché informazioni su possibili restrizioni dietetiche ad esso correlate.",
+	"aboutp3": "Accedendo al menu complementare digitale, il cliente potrà informarsi, nella propria lingua, su ogni piatto. Questa esperienza fornisce al cliente maggiore comodità e sicurezza nelle scelte, permettendogli di scegliere più piatti e di portare con sé tu, la garanzia di una scelta giusta.",
+	"aboutp4": "Infine, l'idea di questo progetto è che sia completamente flessibile, permettendo all'ambiente che lo offrirà di cambiare il suo contenuto e la sua identità visiva, lasciandolo in accordo con l'identità visiva dello stabilimento.",
+	"close": "chiudere",
+
+	"menu01": "Pizza",
+	"menu02": "Paste",
+	"menu03": "insalate",
+	"menu04": "Bevande",
+	"menu05": "Dolci",
+	"menu06": "Contatto",
 
 	"menu01ItemA_name": "Calzonne",
 	"menu01ItemA_description": "Un piatto della cucina italiana spesso definito pizza ripiena, piegata a metà prima di essere infornata.",
@@ -30,13 +31,13 @@
 	"menu01ItemF_description": "Generosa salsa di pomodoro, deliziose fette di salame e cremosa mozzarella.",
 	"menu01ItemG_name": "Tonno",
 	"menu01ItemG_description": "Salsa di pomodoro, mozzarella e tonno. Tonno e mozzarella formano un duo imbattibile in termini di sapore. Pensato appositamente per i palati nobili che apprezzano le pizze più classiche.",
-
+	
 	"menu02ItemA_name": "Cannelloni",
 	"menu02ItemA_description": "Pasta cilindrica tipicamente italiana. Il prodotto viene solitamente consumato con un ripieno saporito che può includere formaggio oltre alla carne macinata. Viene poi ricoperto con un sugo che può essere alla bolognese o besciamella e gratinato al forno.",
 	"menu02ItemB_name": "Gnocchi",
 	"menu02ItemB_description": "Pasta preparata con un impasto di patate o manioca con farina di frumento, piatto tipico della cucina italiana, che può essere servito con sughi: sugo, bolognese o bianco.",
 	"menu02ItemC_name": "Lasagne",
-	"menu02ItemC_description": "Pasta formata da larghe strisce, nonché un piatto, talvolta chiamato lasagna al forno, fatta con queste strisce poste a strati, e intervallate da ripieno (formaggio, prosciutto, carne macinata o altro) e salsa." ,
+	"menu02ItemC_description": "Pasta formata da larghe strisce, nonché un piatto, talvolta chiamato lasagna al forno, fatta con queste strisce poste a strati, e intervallate da ripieno (formaggio, prosciutto, carne macinata o altro) e salsa.",
 	"menu02ItemD_name": "Linguine",
 	"menu02ItemD_description": "La pasta viene spesso paragonata agli spaghetti, ma è leggermente più larga. La forma delle linguine è ideale per essere abbinata a sughi più leggeri, come olio d'oliva, aglio e peperoncino, nonché a salse a base di frutti di mare, come le vongole salsa.",
 	"menu02ItemE_name": "Pasta speciale",
@@ -49,7 +50,7 @@
 	"menu02ItemH_description": "Il taglio più tradizionale d'Italia, conosciuto in tutto il mondo per la sua versatilità e la forma cilindrica allungata. Si può servire con i più svariati tipi di salse.",
 	"menu02ItemI_name": "Vermicelli",
 	"menu02ItemI_description": "Un tipo di pasta sottile e allungata, perfetta per preparare piatti come zuppe, insalate, salse e persino dolci. La sua versatilità permette di creare un'infinità di piatti, rendendola una scelta apprezzata in cucina.",
-
+	
 	"menu03ItemA_name": "Dalla casa",
 	"menu03ItemA_description": "Insalata speciale della casa, perfetta per le giornate calde. Fornisce un pasto leggero e sano.",
 	"menu03ItemB_name": "Completato",
@@ -68,7 +69,7 @@
 	"menu03ItemH_description": "Insalata di frutti di mare.",
 	"menu03ItemI_name": "Base",
 	"menu03ItemI_description": "Insalata semplice, con gli elementi più basilari per una buona alimentazione.",
-
+	
 	"menu04ItemA_name": "Acqua minerale",
 	"menu04ItemA_description": "Acqua minerale naturale, refrigerata o a temperatura ambiente.",
 	"menu04ItemB_name": "Soda",
@@ -77,7 +78,7 @@
 	"menu04ItemC_description": "Birre popolari, artigianali e speciali.",
 	"menu04ItemD_name": "Succo naturale",
 	"menu04ItemD_description": "Diverse opzioni di succhi naturali.",
-
+	
 	"menu05ItemA_name": "Budino speciale",
 	"menu05ItemA_description": "Budino alla crema speciale con accompagnamento di cioccolato e fragole.",
 	"menu05ItemB_name": "Budino",
@@ -86,9 +87,9 @@
 	"menu05ItemC_description": "Macedonia di frutta accuratamente selezionata per offrire un'esperienza di gusto unica",
 	"menu05ItemD_name": "Gelato",
 	"menu05ItemD_description": "Gelato di diversi gusti.",
-	"menu05ItemE_name": "Mousse" ,
+	"menu05ItemE_name": "Mousse",
 	"menu05ItemE_description": "Mousse speciale alla fragola.",
-
+	
 	"dietaryRestrictions": "Restrizioni dietetiche",
 	"Chili": "Pepe",
 	"Crustaceans": "Crostacei",
