@@ -1,12 +1,13 @@
 {
 	"welcome": "descubra todos os nossos pratos",
 	"caption": "Nosso cardápio digital é oferecido no seu idioma",
-	"chooseLang": "Escolha o seu idioma", 
-    	"about": "Sobre o projeto",
-	"aboutp1":"Esse projeto tem por objetivo fornecer um apoio a cardápios de ambientes cujo público alvo tem como característica nativos de diferentes idiomas.",	
-	"aboutp2":"A ideia gira em torno de um cardápio físico, onde para cada item disponível, haverá uma imagem, preços e a descricao  sucinta dos principais ingredientes em cada um dos idiomas escolhidos pelo estabelecimento. Esse cardápio vêm com o QR code que direciona o cliente a um site como este, cujo o objetivo é uma apresentação mais detalhada de cada um dos itens do cardápio: exibindo a imagem do prato (tal como no cardápio físico), e um texto explicativo sobre o prato e seus ingredientes, assim como informações sobre as possíveis restrições alimentares relacionadas ao mesmo.",
-	"aboutp3":"Ao acessar o complemento digital do cardápio, o cliente pode saber, no seu prṕrio idioma, a respeito de cada prato. Essa experiência proporciona ao cliente maior conforto e segurnaça em suas escolhas, possibilitando-o escolher mais itens e trazendo consigo, a garantia de uma escolha acertada.",
-	"aboutp4":"Finalmente, a ideia desse projeto é que seja completamente flexível (por parte dos conteúdos e a parte visual) às personalizações do ambiente que irá oferecê-lo, deixando-o em conformidade com a identidade visual do estabelecimento.",
+	"chooseLang": "Escolha o seu idioma",
+	
+	"about": "Sobre o projeto",
+	"aboutp1": "Esse projeto tem por objetivo fornecer um apoio a cardápios de ambientes cujo público alvo tem como característica nativos de diferentes idiomas.",
+	"aboutp2": "A ideia gira em torno de um cardápio físico, onde para cada item disponível, haverá uma imagem, preços e a descrição sucinta dos principais ingredientes em cada um dos idiomas escolhidos pelo estabelecimento. Esse cardápio vêm com o QR code que direciona o cliente a um site como este, cujo o objetivo é uma apresentação mais detalhada de cada um dos itens do cardápio: exibindo a imagem do prato (tal como no cardápio físico), e um texto explicativo sobre o prato e seus ingredientes, assim como informações sobre as possíveis restrições alimentares relacionadas ao mesmo.",
+	"aboutp3": "Ao acessar o complemento digital do cardápio, o cliente pode saber, no seu próprio idioma, a respeito de cada prato. Essa experiência proporciona ao cliente maior conforto e segurança em suas escolhas, possibilitando-o escolher mais itens e trazendo consigo, a garantia de uma escolha acertada.",
+	"aboutp4": "Finalmente, a ideia desse projeto é que seja completamente flexível possibilitando ao ambiente que irá oferecê-lo alterar o seu conteúdo e sua identidade visual, deixando-o em conformidade com a identidade visual do estabelecimento.",
 	"close": "fechar",
 	
 	"menu01": "Pizza",
@@ -15,7 +16,7 @@
 	"menu04": "Bebidas",
 	"menu05": "Sobremesas",
 	"menu06": "Contato",
-
+	
 	"menu01ItemA_name": "Calzonne",
 	"menu01ItemA_description": "Prato da culinária de origem italiana muitas vezes referido como uma pizza recheada, dobrada ao meio antes de ir ao forno.",
 	"menu01ItemB_name": "Cogumelo",
@@ -30,7 +31,7 @@
 	"menu01ItemF_description": "Generosa cobertura de molho de tomate, deliciosas rodelas de Salame e um cremoso queijo Mozzarella.",
 	"menu01ItemG_name": "Atum",
 	"menu01ItemG_description": "Molho de tomate, mussarela e atum. Atum e mussarela formam uma dupla imbatível quando o assunto é sabor. Feita especialmente para paladares nobres e que apreciam as mais clássicas opções de pizza.",
-
+	
 	"menu02ItemA_name": "Canellone",
 	"menu02ItemA_description": "Massa em formato cilíndrico tipicamente italiano. O produto habitualmente é consumido com recheio salgado que pode incluir queijo além da carne moída. Depois é coberto por um molho que pode ser bolonhesa ou bechamel e gratinado ao forno.",
 	"menu02ItemB_name": "Nhoque",
@@ -49,7 +50,7 @@
 	"menu02ItemH_description": "Corte mais tradicional da Itália, sendo mundialmente conhecido por sua versatilidade e formato cilíndrico longo. Pode ser servido com os mais variados tipos de molhos.",
 	"menu02ItemI_name": "Aletria",
 	"menu02ItemI_description": "Tipo de macarrão fino e alongado, perfeito para preparar pratos como sopas, saladas, molhos e até mesmo sobremesas. Sua versatilidade permite criar uma infinidade de pratos, tornando-se uma escolha popular na cozinha.",
-
+	
 	"menu03ItemA_name": "Da Casa",
 	"menu03ItemA_description": "Salada especial da Casa, perfeita para os dias de calor. Proporcionando uma alimentação leve e saudável.",
 	"menu03ItemB_name": "Completa",
@@ -68,7 +69,7 @@
 	"menu03ItemH_description": "Salada com frutos do mar.",
 	"menu03ItemI_name": "Básica",
 	"menu03ItemI_description": "Salada simples, com os elementos mais básicos para uma boa alimentação.",
-
+	
 	"menu04ItemA_name": "Água Mineral",
 	"menu04ItemA_description": "Água mineral natural, gelada ou em temperatura ambiente.",
 	"menu04ItemB_name": "Refrigerante",
@@ -77,7 +78,7 @@
 	"menu04ItemC_description": "Cervejas populares, artezanais e especiais.",
 	"menu04ItemD_name": "Suco Natural",
 	"menu04ItemD_description": "Diferentes opções de sucos naturais.",
-
+	
 	"menu05ItemA_name": "Pudim Especial",
 	"menu05ItemA_description": "Pudim especial de creme com chocolate e acompanhamento de morango.",
 	"menu05ItemB_name": "Pudim",
@@ -86,9 +87,9 @@
 	"menu05ItemC_description": "Salada de frutas cuidadosamente selecionadas para proporcionar uma experiência única de sabor",
 	"menu05ItemD_name": "Sorvete",
 	"menu05ItemD_description": "Sorvetes de diferentes sabores.",
-	"menu05ItemE_name": "Mousse" ,
+	"menu05ItemE_name": "Mousse",
 	"menu05ItemE_description": "Mousse de morango especial.",
-
+	
 	"dietaryRestrictions": "Restrições Alimentares",
 	"Chili": "Pimenta",
 	"Crustaceans": "Crustáceos",
