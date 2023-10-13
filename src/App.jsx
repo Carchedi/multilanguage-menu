@@ -106,7 +106,7 @@ function App() {
                 caption={t('caption')}
                 chooseLanguage={t('chooseLang')}
                 languages = {languages}               
-            /> 
+            />
             {navItens.map(({name, items}) => (
                 <Section 
                     name={t(name)}
