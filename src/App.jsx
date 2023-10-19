@@ -111,7 +111,8 @@ function App() {
                 <Section 
                     name={t(name)}
                     items={items} 
-                />   
+                />  
+                
             ))}
                 <ContactUs name={t('menu06')}/> 
         </>
